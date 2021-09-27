@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>PokeRaid</title>
+
+    <link rel="stylesheet" href="Css/main.css"/>
+
+    <!-- Leaflet -->
+    <link rel="stylesheet" href="node_modules/leaflet/dist/leaflet.css"/>
+
+
+</head>
+<body>
+<div id="map"></div>
+<div id="controls">
+    <div id="lines">
+        <div id="lines_header">
+            <h2>Lines</h2>
+        </div>
+        <form id="form_lines" name="form_lines">
+        </form>
+    </div>
+    <div id="stops">
+        <div id="stops_header">
+            <h2>Stops</h2>
+        </div>
+    </div>
+    <div id="departures">
+        <div id="departures_header">
+            <h2>Departures</h2>
+        </div>
+    </div>
+</div>
+
+
+<script src="node_modules/jquery/dist/jquery.js"></script>
+
+<!-- Leaflet -->
+<script src="node_modules/leaflet/dist/leaflet.js"></script>
+
+<script type="text/javascript" src="https://api.ginko.voyage/api.js?apiKey=XXX"></script>
+<script src="Javascript/index.js"></script>
+</body>
+</html>
