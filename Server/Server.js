@@ -5,7 +5,7 @@ const cors = require('cors')
 app.use(cors())
 
 const mongoose = require('mongoose');
-mongoose.connect('mongodb://127.0.0.1:27017/ginko_map');
+// mongoose.connect('mongodb://127.0.0.1:27017/ginko_map');
 
 
 
@@ -61,7 +61,7 @@ const lineSchema = new mongoose.Schema({
 
 
 
-const Line = mongoose.model('Line', lineSchema);
+// const Line = mongoose.model('Line', lineSchema);
 //
 // const tOne = new Line({
 //     private_id: 101,
@@ -110,6 +110,12 @@ app.get('/', (req, res) => {
 
 app.get('/shapes', (req, res) => {
     res.send(shapes)
+})
+
+app.get('/stops', (req, res) => {
+    fs.readFile('stops.geojson', 'utf8', (err, data) => {
+        res.send(data)
+    })
 })
 
 app.get('/putLinesInDB', (req, res) => {
