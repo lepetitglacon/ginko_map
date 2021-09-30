@@ -21,6 +21,13 @@ fetch(server+"lines", headers)
             }}).addTo(map)
     })
 
+fetch(server+"stops", headers)
+    .then(res => res.json())
+    .then(json => {
+        console.log(json)
+
+    })
+
 
 
 
