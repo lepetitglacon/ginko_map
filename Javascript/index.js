@@ -66,8 +66,10 @@ function displayLinesForm(line, layer) {
  * @param line
  * @param layer
  */
-function addLineToLinesForm(line, layer) {
+async function addLineToLinesForm(line, layer) {
     const linesContainer = $('#lines_container')
+    const markers = await createMarkers(line, layer)
+    const group = L.layerGroup([markers, layer]);
 
     let itemContainer = $('#line_container_'+line.properties.route_id+'')
     if (itemContainer.length === 0) {
@@ -75,18 +77,11 @@ function addLineToLinesForm(line, layer) {
     }
 
     const item = $('<div class="line_item"></div>')
-        .click(async function handleCLick(e) {
-            const markers = await createMarkers(line, layer)
-            const layerGroup = L.layerGroup();
-            layerGroup.addTo(map)
-
-            if (!layerGroup.hasLayer(layer)) {
-                console.log('yes')
-                layerGroup.addLayer(layer)
-                layerGroup.addLayer(markers)
+        .click(function handleCLick() {
+            if (!map.hasLayer(group)) {
+                group.addTo(map)
             } else {
-                layerGroup.removeLayer(markers)
-                layerGroup.removeLayer(layer)
+                map.removeLayer(group)
             }
         })
 
@@ -110,10 +105,11 @@ function addLineToLinesForm(line, layer) {
  * @param layer
  */
 async function createMarkers(line, layer) {
-    const stops = await doAjax('get/stops', {id: line.properties.route_id})
+    const stops = await doAjax('get/stopsByVariant', {id: line.properties.route_variante_id})
     let markers = L.layerGroup()
     stops.map(stop => {
         const marker = L.marker([stop.geometry.coordinates[1],stop.geometry.coordinates[0]])
+        marker.bindPopup(stop.properties.name+" direction "+line.properties.route_destination)
         markers.addLayer(marker)
     })
     return markers

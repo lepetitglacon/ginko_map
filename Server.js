@@ -71,7 +71,12 @@ app.get('/get/lines',async  (req, res) => {
 })
 
 app.get('/get/stops',async  (req, res) => {
-    const lines = await getStopsByLineIdMongo(req.query.id)
+    const lines = await getStopsByVariant(req.query.id)
+    res.status(200).json(lines)
+})
+
+app.get('/get/stopsByVariant',async  (req, res) => {
+    const lines = await getStopsByVariant(req.query.id)
     res.status(200).json(lines)
 })
 
@@ -103,8 +108,8 @@ function getStopMongo(id) {
  *
  * @returns {*}
  */
-function getStopsByLineIdMongo(id) {
-    const cursor = db.collection('stops').find({"properties.route_id": id})
+function getStopsByVariant(id) {
+    const cursor = db.collection('stops').find({"properties.route_variante_id": id})
     return cursor.toArray()
 }
 
