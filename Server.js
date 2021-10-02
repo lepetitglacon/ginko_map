@@ -15,69 +15,114 @@ MongoClient.connect(url, function(err, client) {
 });
 
 const axios = require('axios')
-const fs = require('fs')
+const fs = require('fs').promises
 const {json} = require("express");
-
-
-
-
-
-app.get('/', (req, res) => {
-    res.send('running')
-})
-
-app.get('/importLines', async (req, res) => {
-
-    let gtfsLines = getGtfsLines()
-    let ginkoLines = getGinkoLines()
-
-
-    console.log(gtfsLines, ginkoLines)
-    ginkoLines.map((ginkoLine) => {
-        console.log(ginkoLine)
-    })
-
-    async function getGtfsLines() {
-        fs.readFile('./Server/gtfs-ginko.zip.geojson', "utf8", ((err, data) => {
-            return data
-        }))
-    }
-
-    async function getGinkoLines() {
-        return axios.get('https://api.ginko.voyage/DR/getLignes.do?apiKey=XXX')
-    }
-})
-
-app.get('/importStops', (req, res) => {
-    let dataArray = []
-    fetch('https://api.ginko.voyage/DR/getLignes.do?apiKey=XXX')
-        .then(res => {res.json()})
-        .then(json => {
-            console.log(json)
-        })
-})
-
-app.get('/lines', (req, res) => {
-    db.collection('lines').find({"geometry.type": "LineString"}).toArray((err, docs) => {
-        if (err) {
-            console.log(err)
-            throw err
-        }
-        res.status(200).json(docs)
-    })
-})
-
-app.get('/stops', (req, res) => {
-    db.collection('lines').find({"geometry.type": "Point"}).toArray((err, docs) => {
-        if (err) {
-            console.log(err)
-            throw err
-        }
-        res.status(200).json(docs)
-    })
-})
 
 app.listen(port, () => {
     console.log('----------------------------------------------- START')
     console.log(`Example app listening at http://localhost:${port}`)
 })
+app.get('/', (req, res) => {
+    res.send('running')
+})
+
+
+app.get('/back/importDataFromGtfsFile',async (req, res) => {
+    const resArray = []
+    let lines = await getGtfsLines()
+
+    await lines.map(line => {
+      if (line.geometry.type === 'LineString'){
+          db.collection('lines').insertOne(line).then((res, id) => {
+              resArray.push(id)
+          })
+      } else if (line.geometry.type === 'Point'){
+          db.collection('stops').insertOne(line).then((res, id) => {
+              resArray.push(id)
+          })
+      }
+    })
+
+    res.status(200).json({"objectsInsertedCount": resArray.length, "objectsInserted": resArray})
+})
+app.get('/back/assignVariantToStops', async (req, res) => {
+    const lines = await getLinesMongo()
+    lines.map(async line => {
+        const stops = await getGinkoStopsBy(line)
+        stops.map(async stop => {
+            const mongoStop = await getStopMongo(stop.id)
+            const newDoc = await db.collection('stops').updateOne({"_id": mongoStop._id},
+                {
+                    $set:{
+                        "properties.route_id": line.properties.route_id,
+                        "properties.route_variante_id": line.properties.route_variante_id
+                    }
+                })
+            console.log(mongoStop.properties.id, newDoc)
+        })
+    })
+    res.status(200).json()
+})
+
+
+app.get('/get/lines',async  (req, res) => {
+    const lines = await getLinesMongo()
+    res.status(200).json(lines)
+})
+
+app.get('/get/stops',async  (req, res) => {
+    const lines = await getStopsByLineIdMongo(req.query.id)
+    res.status(200).json(lines)
+})
+
+
+/**
+ * Returns lines Collection
+ *
+ * @returns {*}
+ */
+function getLinesMongo() {
+    let cursor = db.collection('lines').find({}).sort({"properties.route_id": 1}).collation({
+        "locale": "fr",
+        "numericOrdering": true
+    })
+    return cursor.toArray()
+}
+
+/**
+ * Returns lines Collection
+ *
+ * @returns {*}
+ */
+function getStopMongo(id) {
+    return db.collection('stops').findOne({"properties.id": id})
+}
+
+/**
+ * Returns lines Collection
+ *
+ * @returns {*}
+ */
+function getStopsByLineIdMongo(id) {
+    const cursor = db.collection('stops').find({"properties.route_id": id})
+    return cursor.toArray()
+}
+
+/**
+ * Returns lines data as JSON
+ * @returns {Promise<any>}
+ */
+async function getGtfsLines() {
+    const data = await fs.readFile('./Server/gtfs-ginko.zip.geojson', "utf8")
+    return JSON.parse(data.features)
+}
+
+/**
+ * Returns every line's stops as JSON
+ * @returns {Promise<any>}
+ */
+async function getGinkoStopsBy(line) {
+    const url = 'https://api.ginko.voyage/DR/getDetailsVariante.do?apiKey=XXX&idLigne='+line.properties.route_id+'&idVariante='+line.properties.route_variante_id
+    const data = await axios.get(url)
+    return data.data.objets
+}
