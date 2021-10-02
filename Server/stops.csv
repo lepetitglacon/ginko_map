@@ -1,0 +1,805 @@
+_id,geometry.coordinates,geometry.type,properties.description,properties.id,properties.name,properties.parent_station,properties.route_id,properties.route_variante_id,properties.wheelchair_boarding,type
+615615f357da3ca0b0969241,"[5.977972984313965,47.23643493652344]",Point,,st_fresnel,Fresnel,,,,unknown,Feature
+615615f357da3ca0b0969240,"[6.033674240112305,47.242454528808594]",Point,,st_diderot,Diderot,,,,unknown,Feature
+615615f357da3ca0b0969242,"[6.047886,47.2461]",Point,,CHAFFAN1,Chaffanjon,st_chaffanjon,10,88-2,unknown,Feature
+615615f357da3ca0b0969243,"[6.015287,47.24125]",Point,,SIFFERT1,Siffert,st_siffert,9,5-4,unknown,Feature
+615615f357da3ca0b0969244,"[6.026629,47.23971]",Point,,POSTE2,Poste,st_poste,11,55-0,available,Feature
+615615f357da3ca0b0969245,"[6.031481,47.24918]",Point,,MARILOU2,Marie Louise,st_marie_louise,11,55-1,unknown,Feature
+615615f357da3ca0b0969246,"[6.00058,47.24603]",Point,,PALSPOR2,Palais des Sports,st_palais_des_sports,,,available,Feature
+615615f357da3ca0b0969247,"[5.960859,47.221622]",Point,,VOLTAIR1,Voltaire,st_voltaire,4,116-1,available,Feature
+615615f357da3ca0b0969248,"[6.003371,47.24895]",Point,,BROGRET1,Brossolette Greta,st_brossolette_greta,6,155-3,unknown,Feature
+615615f357da3ca0b0969249,"[6.036479,47.257523]",Point,,MUTUALI2,Mutualité,st_mutualite,6,155-2,available,Feature
+615615f357da3ca0b096924a,"[6.04736,47.268967]",Point,,CHEMPAL2,Chemin de Palente,st_chemin_de_palente,11,55-0,unknown,Feature
+615615f357da3ca0b096924b,"[5.988835,47.229027]",Point,,CONCORD1,Concorde,st_concorde,4,116-4,available,Feature
+615615f357da3ca0b096924c,"[6.033944129943848,47.25611877441406]",Point,,st_les_oiseaux,Les Oiseaux,,,,unknown,Feature
+615615f357da3ca0b096924d,"[5.984114,47.228016]",Point,,ORATOIR2,Oratoire,st_oratoire,4,116-1,available,Feature
+615615f357da3ca0b096924e,"[6.052358150482178,47.243404388427734]",Point,,st_bregille,Bregille,,,,available,Feature
+615615f357da3ca0b096924f,"[6.0069780349731445,47.2413330078125]",Point,,st_trepillot,Trépillot,,,,unknown,Feature
+615615f357da3ca0b0969250,"[6.022922,47.25833]",Point,,SEILER2,Seiler,st_seiler,8,45-1,unknown,Feature
+615615f357da3ca0b0969251,"[6.022766,47.263992]",Point,,FLSAUT02,"Feuilles d'Automne",st_feuilles_dautomne,12,24-2,unknown,Feature
+615615f357da3ca0b0969252,"[6.04388,47.25942]",Point,,CORVEE1,Corvée,st_corvee,6,155-3,available,Feature
+615615f357da3ca0b0969253,"[6.027451992034912,47.235755920410156]",Point,,st_st_maurice,St Maurice,,,,unknown,Feature
+615615f357da3ca0b0969254,"[6.009932,47.250153]",Point,,FONT EC1,Fontaine Ecu,st_fontaine_ecu,9,5-4,unknown,Feature
+615615f357da3ca0b0969255,"[6.013616561889648,47.25563049316406]",Point,,st_charmilles,Charmilles,,,,unknown,Feature
+615615f357da3ca0b0969256,"[5.9560003,47.22321]",Point,,UFRSANT1,UFR Santé,st_ufr_sante,7,63-4,available,Feature
+615615f357da3ca0b0969257,"[6.029016,47.259567]",Point,,QUATVEN2,4 Vents,st_4_vents,7,63-5,available,Feature
+615615f357da3ca0b0969258,"[6.044944763183594,47.25596618652344]",Point,,st_schweitzer,Schweitzer,,,,available,Feature
+615615f357da3ca0b0969259,"[6.0118279457092285,47.22438430786133]",Point,,st_residence_moingeon,Résidence Moingeon,,,,unknown,Feature
+615615f357da3ca0b096925a,"[5.976289,47.237568]",Point,,CHAILLE1,Chaille,st_chaille,9,5-4,unknown,Feature
+615615f357da3ca0b096925b,"[6.010425,47.22985]",Point,,POLYGON2,Polygone,st_polygone,9,5-4,unknown,Feature
+615615f357da3ca0b096925c,"[6.03025,47.25307]",Point,,DUCHAIL1,Duchaillut,st_duchaillut,4,116-1,unknown,Feature
+615615f357da3ca0b096925d,"[6.0313920974731445,47.232154846191406]",Point,,st_citadelle,Citadelle,,,,available,Feature
+615615f357da3ca0b096925e,"[6.026047,47.236267]",Point,,CARMES1,Carmes,st_carmes,27,49-2,available,Feature
+615615f357da3ca0b096925f,"[6.020009,47.2403]",Point,,BATTANT1,Battant,st_battant,8,45-1,unknown,Feature
+615615f357da3ca0b0969260,"[5.951281,47.221443]",Point,,P+RHDC01,Hauts du Chazal,st_hauts_du_chazal,7,63-4,unknown,Feature
+615615f357da3ca0b0969261,"[6.0047855,47.244167]",Point,,STALAGR2,Stade Léo Lagrange,st_stade_leo_lagrange,,,available,Feature
+615615f357da3ca0b0969262,"[5.992957,47.28684]",Point,,ESPAVAL1,École-Valentin - Espace Valentin,st_ecolevalentin__espace_valentin,8,45-1,available,Feature
+615615f357da3ca0b0969263,"[5.99651,47.24676]",Point,,OBSAFPA2,AFPA,st_afpa,3,119-8,available,Feature
+615615f357da3ca0b0969264,"[5.977846,47.240707]",Point,,THOURET2,Thouret,st_thouret,9,5-2,unknown,Feature
+615615f357da3ca0b0969265,"[5.972164,47.22533]",Point,,FLANDRE3,Flandres,st_flandres,4,116-1,available,Feature
+615615f357da3ca0b0969266,"[6.030250072479248,47.25307083129883]",Point,,st_duchaillut,Duchaillut,,,,unknown,Feature
+615615f357da3ca0b0969267,"[5.99277,47.24731]",Point,,IUT2,IUT,st_iut,,,available,Feature
+615615f357da3ca0b0969268,"[5.998355,47.2363]",Point,,CENTTRI1,Centre de Tri,st_centre_de_tri,10,88-2,available,Feature
+615615f357da3ca0b0969269,"[6.032986,47.24111]",Point,,GAREMOU2,Gare de la Mouillère,st_gare_de_la_mouillere,5,109-3,unknown,Feature
+615615f357da3ca0b096926a,"[5.997682,47.259525]",Point,,LYPARIS2,Lycée Pâris,st_lycee_paris,6,155-2,unknown,Feature
+615615f357da3ca0b096926b,"[5.979918,47.244534]",Point,,VINCENT2,Clinique St Vincent,st_clinique_st_vincent,9,5-2,unknown,Feature
+615615f357da3ca0b096926c,"[6.028461456298828,47.24752426147461]",Point,,st_liberte,Liberté,,,,available,Feature
+615615f357da3ca0b096926d,"[6.021145,47.251442]",Point,,COLSENE2,Colsenet,st_colsenet,8,45-1,unknown,Feature
+615615f357da3ca0b096926e,"[6.014594,47.23724]",Point,,OUDET1,Oudet,st_oudet,9,5-4,available,Feature
+615615f357da3ca0b096926f,"[5.999370574951172,47.25804901123047]",Point,,st_batiment_cfa,Bâtiment CFA,,,,unknown,Feature
+615615f357da3ca0b0969270,"[6.02118,47.256786]",Point,,VICGALL1,Victor Gallois,st_victor_gallois,7,63-4,available,Feature
+615615f357da3ca0b0969271,"[6.012761,47.264755]",Point,,QUATROU1,Quatrouillots,st_quatrouillots,8,45-2,unknown,Feature
+615615f357da3ca0b0969272,"[5.982532501220703,47.222599029541016]",Point,,st_malcombe,Malcombe,,,,available,Feature
+615615f357da3ca0b0969273,"[6.033813953399658,47.26525115966797]",Point,,st_vieilley,Vieilley,,,,unknown,Feature
+615615f357da3ca0b0969274,"[5.9515543,47.221603]",Point,,t_hdc1,Hauts du Chazal,st_hauts_du_chazal,102,15-0,available,Feature
+615615f357da3ca0b0969275,"[6.033220291137695,47.2408447265625]",Point,,st_gare_de_la_mouillere,Gare de la Mouillère,,,,unknown,Feature
+615615f357da3ca0b0969276,"[6.036457061767578,47.26161193847656]",Point,,st_gounod,Gounod,,,,unknown,Feature
+615615f357da3ca0b0969277,"[6.006475,47.257923]",Point,,CHEFOUN2,Chemin des Founottes,st_chemin_des_founottes,12,24-2,unknown,Feature
+615615f357da3ca0b0969278,"[6.033735275268555,47.24596405029297]",Point,,st_fontaine_argent,Fontaine Argent,,,,available,Feature
+615615f357da3ca0b0969279,"[6.025522232055664,47.25022888183594]",Point,,st_pont_sncf,Pont SNCF,,,,unknown,Feature
+615615f357da3ca0b096927a,"[6.006978,47.241333]",Point,,TREPIL1,Trépillot,st_trepillot,10,88-4,unknown,Feature
+615615f357da3ca0b096927b,"[6.018301,47.23482]",Point,,HMAI2,8 Mai,st_8_mai,10,88-4,unknown,Feature
+615615f357da3ca0b096927c,"[6.0470380783081055,47.262168884277344]",Point,,st_jeannettes,Jeannettes,,,,unknown,Feature
+615615f357da3ca0b096927d,"[6.051061153411865,47.2650032043457]",Point,,st_palente_espace_industriel,Palente Espace Industriel,,,,available,Feature
+615615f357da3ca0b096927e,"[6.028455,47.240437]",Point,,CENSTPI1,Centre St Pierre,st_centre_st_pierre,11,55-1,unknown,Feature
+615615f357da3ca0b096927f,"[6.020867,47.24239]",Point,,BACCHUS1,Bacchus,st_bacchus,8,45-1,unknown,Feature
+615615f357da3ca0b0969280,"[6.03277,47.23797]",Point,,PONTBRE1,Pont de Bregille,st_pont_de_bregille,12,24-1,unknown,Feature
+615615f357da3ca0b0969281,"[5.973448,47.232803]",Point,,EDISON4,Edison,st_edison,10,88-4,unknown,Feature
+615615f357da3ca0b0969282,"[5.961509704589844,47.215301513671875]",Point,,st_de_vigny,De Vigny,,,,available,Feature
+615615f357da3ca0b0969283,"[5.96637,47.236305]",Point,,KOSMA1,Kosma,st_kosma,9,5-4,unknown,Feature
+615615f357da3ca0b0969284,"[6.030500888824463,47.25115203857422]",Point,,st_fourier,Fourier,,,,unknown,Feature
+615615f357da3ca0b0969285,"[5.96804,47.23086]",Point,,FLEMING1,Fleming,st_fleming,10,88-2,unknown,Feature
+615615f357da3ca0b0969286,"[5.965849,47.21771]",Point,,PLANOIS3,Planoise,st_planoise,7,63-5,unknown,Feature
+615615f357da3ca0b0969287,"[6.0098286,47.24246]",Point,,GIBELOT1,Gibelotte,st_gibelotte,10,88-2,available,Feature
+615615f357da3ca0b0969288,"[6.007336616516113,47.270687103271484]",Point,,st_chemin_de_valentin,Chemin de Valentin,,,,unknown,Feature
+615615f357da3ca0b0969289,"[6.029912948608398,47.242919921875]",Point,,st_parc_micaud,Parc Micaud,,,,available,Feature
+615615f357da3ca0b096928a,"[5.956058,47.22322]",Point,,UFRSANT2,UFR Santé,st_ufr_sante,7,63-5,unknown,Feature
+615615f357da3ca0b096928b,"[6.043778,47.25932]",Point,,CORVEE2,Corvée,st_corvee,6,155-2,available,Feature
+615615f357da3ca0b096928c,"[6.010331,47.258923]",Point,,COLCAM1,Collège Camus,st_college_camus,12,24-1,available,Feature
+615615f357da3ca0b096928d,"[6.006425,47.247513]",Point,,DEVILLE1,Deville,st_deville,6,155-3,unknown,Feature
+615615f357da3ca0b096928e,"[6.022457,47.23661]",Point,,MAIRIE1,Mairie,st_mairie,27,49-1,unknown,Feature
+615615f357da3ca0b096928f,"[6.041794300079346,47.260704040527344]",Point,,st_lilas,Lilas,,,,available,Feature
+615615f357da3ca0b0969290,"[5.9636316,47.22639]",Point,,t_chr2,CHRU Minjoz,st_chru_minjoz,101,15-1,available,Feature
+615615f357da3ca0b0969291,"[5.975275039672852,47.214969635009766]",Point,,st_parc_urbain,Parc Urbain,,,,available,Feature
+615615f357da3ca0b0969292,"[6.015706,47.259678]",Point,,PSB3,PSB,st_psb,8,45-1,unknown,Feature
+615615f357da3ca0b0969293,"[6.043858,47.244274]",Point,,HEITZ2,Heitz,st_heitz,10,88-4,unknown,Feature
+615615f357da3ca0b0969294,"[6.014646,47.242493]",Point,,LECLERC1,Leclerc,st_leclerc,9,5-4,available,Feature
+615615f357da3ca0b0969295,"[6.025517,47.253494]",Point,,HBAIGUE1,Henri Baigue,st_henri_baigue,12,24-1,unknown,Feature
+615615f357da3ca0b0969296,"[6.045393,47.26297]",Point,,t_orc1,Orchamps,st_orchamps,101,15-0,available,Feature
+615615f357da3ca0b0969297,"[6.054475,47.24672]",Point,,ENVELME1,Envelmey,st_envelmey,5,109-2,unknown,Feature
+615615f357da3ca0b0969298,"[6.044786,47.258564]",Point,,LEBEUF1,Lebeuf,st_lebeuf,11,55-0,unknown,Feature
+615615f357da3ca0b0969299,"[6.040094,47.241714]",Point,,SALBREG1,Salins de Bregille,st_salins_de_bregille,10,88-2,unknown,Feature
+615615f357da3ca0b096929a,"[6.028358,47.24562]",Point,,FLORE4,Flore,st_flore,11,55-1,unknown,Feature
+615615f357da3ca0b096929b,"[6.041283,47.239983]",Point,,FORTBRE2,Fort de Bregille,st_fort_de_bregille,10,88-4,unknown,Feature
+615615f357da3ca0b096929c,"[6.027528,47.26145]",Point,,ESPERAN2,Espérance,st_esperance,12,24-2,unknown,Feature
+615615f357da3ca0b096929d,"[6.003447,47.248978]",Point,,BROGRET3,Brossolette Greta,st_brossolette_greta,6,155-2,unknown,Feature
+615615f357da3ca0b096929e,"[5.961123,47.21521]",Point,,DEVIGNY1,De Vigny,st_de_vigny,4,116-4,available,Feature
+615615f357da3ca0b096929f,"[6.052923,47.24599]",Point,,MIRABEA2,Mirabeau,st_mirabeau,5,109-3,unknown,Feature
+615615f357da3ca0b09692a0,"[6.014761,47.252857]",Point,,BEAUQUI2,Beauquier,st_beauquier,7,63-5,available,Feature
+615615f357da3ca0b09692a1,"[6.044341087341309,47.263511657714844]",Point,,st_lycee_pergaud,Lycée Pergaud,,,,available,Feature
+615615f357da3ca0b09692a2,"[6.028651,47.25871]",Point,,LANCHY1,Lanchy,st_lanchy,4,116-1,unknown,Feature
+615615f357da3ca0b09692a3,"[5.966114521026611,47.21751403808594]",Point,,st_planoise,Planoise,,,,unknown,Feature
+615615f357da3ca0b09692a4,"[6.010639190673828,47.22986602783203]",Point,,st_polygone,Polygone,,,,unknown,Feature
+615615f357da3ca0b09692a5,"[6.025431,47.235344]",Point,,GRANVEL2,Granvelle,st_granvelle,27,49-2,available,Feature
+615615f357da3ca0b09692a6,"[6.012983322143555,47.244789123535156]",Point,,st_weiss,Weiss,,,,unknown,Feature
+615615f357da3ca0b09692a7,"[6.025522,47.25023]",Point,,PONSNCF1,Pont SNCF,st_pont_sncf,12,24-1,unknown,Feature
+615615f357da3ca0b09692a8,"[5.99625,47.24683]",Point,,OBSAFPA3,AFPA,st_afpa,,,available,Feature
+615615f357da3ca0b09692a9,"[5.979062557220459,47.22331237792969]",Point,,st_parc_des_expositions,Parc des Expositions,,,,unknown,Feature
+615615f357da3ca0b09692aa,"[6.028446,47.257416]",Point,,FLUAGA2,Fluttes Agasses,st_fluttes_agasses,4,116-1,unknown,Feature
+615615f357da3ca0b09692ab,"[6.035233020782471,47.24567413330078]",Point,,st_lycee_st_paul,Lycée St Paul,,,,available,Feature
+615615f357da3ca0b09692ac,"[5.992855072021484,47.247291564941406]",Point,,st_iut,IUT,,,,available,Feature
+615615f357da3ca0b09692ad,"[5.973569869995117,47.219791412353516]",Point,,st_allende,Allende,,,,available,Feature
+615615f357da3ca0b09692ae,"[6.046800136566162,47.26307678222656]",Point,,st_st_pie_x,St Pie X,,,,unknown,Feature
+615615f357da3ca0b09692af,"[6.033231735229492,47.23611068725586]",Point,,st_cite_des_arts,Cité des Arts,,,,unknown,Feature
+615615f357da3ca0b09692b0,"[6.026954650878906,47.24894714355469]",Point,,st_chanois,Chanois,,,,unknown,Feature
+615615f357da3ca0b09692b1,"[6.025144577026367,47.242835998535156]",Point,,st_isenbart,Isenbart,,,,available,Feature
+615615f357da3ca0b09692b2,"[6.018151,47.234844]",Point,,HMAI1,8 Mai,st_8_mai,9,5-4,unknown,Feature
+615615f357da3ca0b09692b3,"[6.009552,47.226025]",Point,,RADIEUS1,Radieuse,st_radieuse,9,5-4,unknown,Feature
+615615f357da3ca0b09692b4,"[6.0096865,47.242455]",Point,,GIBELOT2,Gibelotte,st_gibelotte,10,88-4,available,Feature
+615615f357da3ca0b09692b5,"[5.9599614,47.22591]",Point,,t_psan2,Maison des Familles,st_maison_des_familles,101,15-1,available,Feature
+615615f357da3ca0b09692b6,"[6.026814937591553,47.250762939453125]",Point,,st_belvedere,Belvédère,,,,unknown,Feature
+615615f357da3ca0b09692b7,"[6.045755,47.24517]",Point,,COLOMBO2,Colombot,st_colombot,10,88-4,unknown,Feature
+615615f357da3ca0b09692b8,"[6.044907,47.2608]",Point,,PMCURIE2,Pierre et Marie Curie,st_pierre_et_marie_curie,6,155-2,unknown,Feature
+615615f357da3ca0b09692b9,"[6.016436,47.220005]",Point,,CHEMVEL1,Chemin de Velotte,st_chemin_de_velotte,9,5-4,unknown,Feature
+615615f357da3ca0b09692ba,"[6.013438701629639,47.26386260986328]",Point,,st_sansonnets,Sansonnets,,,,unknown,Feature
+615615f357da3ca0b09692bb,"[6.042978,47.269806]",Point,,CULPRES2,Cul des Prés,st_cul_des_pres,11,55-0,unknown,Feature
+615615f357da3ca0b09692bc,"[6.020407,47.247215]",Point,,GAVIONO2,Gare Viotte Nord,st_gare_viotte_nord,8,45-1,available,Feature
+615615f357da3ca0b09692bd,"[5.972772,47.22235]",Point,,t_epo1,Epoisses,st_epoisses,102,15-0,available,Feature
+615615f357da3ca0b09692be,"[6.023718,47.258327]",Point,,BLUM2,Blum,st_blum,7,63-5,available,Feature
+615615f357da3ca0b09692bf,"[6.037079811096191,47.23397445678711]",Point,,st_port_joint,Port Joint,,,,unknown,Feature
+615615f357da3ca0b09692c0,"[6.020927,47.256733]",Point,,VICGALL2,Victor Gallois,st_victor_gallois,7,63-5,unknown,Feature
+615615f357da3ca0b09692c1,"[6.03513240814209,47.25152587890625]",Point,,st_baille,Baille,,,,unknown,Feature
+615615f357da3ca0b09692c3,"[6.011491775512695,47.24448013305664]",Point,,st_demangel,Demangel,,,,unknown,Feature
+615615f357da3ca0b09692c2,"[5.965506,47.22732]",Point,,CHRUJM,CHRU Minjoz,st_chru_minjoz,10,88-2,available,Feature
+615615f357da3ca0b09692c4,"[6.03272,47.23801]",Point,,PONTBRE2,Pont de Bregille,st_pont_de_bregille,12,24-2,unknown,Feature
+615615f357da3ca0b09692c5,"[6.000504,47.250816]",Point,,POLSPOR1,Pôle Sportif,st_pole_sportif,7,63-4,unknown,Feature
+615615f357da3ca0b09692c6,"[6.024274826049805,47.23780059814453]",Point,,st_8_septembre,8 Septembre,,,,available,Feature
+615615f357da3ca0b09692c7,"[6.005342,47.239433]",Point,,MARMIER1,Marmier,st_marmier,10,88-4,available,Feature
+615615f357da3ca0b09692c8,"[6.040292739868164,47.26237869262695]",Point,,st_chopin,Chopin,,,,available,Feature
+615615f357da3ca0b09692c9,"[6.048903942108154,47.24371337890625]",Point,,st_danton,Danton,,,,available,Feature
+615615f357da3ca0b09692ca,"[6.047388553619385,47.268890380859375]",Point,,st_chemin_de_palente,Chemin de Palente,,,,unknown,Feature
+615615f357da3ca0b09692cb,"[6.0418797,47.260723]",Point,,t_lila1,Lilas,st_lilas,101,15-0,available,Feature
+615615f357da3ca0b09692cc,"[6.0203433,47.233738]",Point,,t_cham1,Chamars,st_chamars,102,15-0,available,Feature
+615615f357da3ca0b09692cd,"[6.014347,47.243008]",Point,,LECLERC4,Leclerc,st_leclerc,9,5-2,available,Feature
+615615f357da3ca0b09692ce,"[6.026595592498779,47.252044677734375]",Point,,st_chasnot,Chasnot,,,,unknown,Feature
+615615f357da3ca0b09692cf,"[6.047121047973633,47.24885177612305]",Point,,st_magellan,Magellan,,,,unknown,Feature
+615615f357da3ca0b09692d0,"[6.038393,47.240826]",Point,,AIGUILL2,Aiguille,st_aiguille,10,88-4,unknown,Feature
+615615f357da3ca0b09692d1,"[5.967651,47.23071]",Point,,FLEMING2,Fleming,st_fleming,10,88-4,unknown,Feature
+615615f357da3ca0b09692d2,"[6.045074,47.260983]",Point,,PMCURIE1,Pierre et Marie Curie,st_pierre_et_marie_curie,6,155-3,unknown,Feature
+615615f357da3ca0b09692d3,"[6.011541,47.24661]",Point,,FANART2,Fanart,st_fanart,9,5-2,unknown,Feature
+615615f357da3ca0b09692d4,"[5.952353477478027,47.21839904785156]",Point,,st_rene_char,René Char,,,,unknown,Feature
+615615f357da3ca0b09692d5,"[5.989477,47.23447]",Point,,SAPINS1,Sapins,st_sapins,10,88-2,unknown,Feature
+615615f357da3ca0b09692d6,"[6.028084,47.254982]",Point,,PBT2,Paul Bert,st_paul_bert,4,116-1,available,Feature
+615615f357da3ca0b09692d7,"[6.043092250823975,47.25318908691406]",Point,,st_les_vaites,Les Vaîtes,,,,available,Feature
+615615f357da3ca0b09692d8,"[6.01865,47.25507]",Point,,BUFFON1,Buffon,st_buffon,7,63-4,unknown,Feature
+615615f357da3ca0b09692d9,"[6.045693,47.259277]",Point,,LEBEUF2,Lebeuf,st_lebeuf,11,55-1,unknown,Feature
+615615f357da3ca0b09692da,"[6.022457122802734,47.236610412597656]",Point,,st_mairie,Mairie,,,,unknown,Feature
+615615f357da3ca0b09692db,"[6.028680801391602,47.2586555480957]",Point,,st_lanchy,Lanchy,,,,unknown,Feature
+615615f357da3ca0b09692dc,"[5.97841,47.22067]",Point,,t_micro1,Micropolis,st_micropolis,102,15-0,available,Feature
+615615f357da3ca0b09692dd,"[5.999352931976318,47.24762725830078]",Point,,st_intermarche,Intermarché,,,,unknown,Feature
+615615f357da3ca0b09692de,"[6.023057,47.2337]",Point,,PREFECT1,Préfecture,st_prefecture,27,49-2,available,Feature
+615615f357da3ca0b09692df,"[6.020020008087158,47.23358154296875]",Point,,st_chamars,Chamars,,,,available,Feature
+615615f357da3ca0b09692e0,"[6.018673419952393,47.255157470703125]",Point,,st_buffon,Buffon,,,,unknown,Feature
+615615f357da3ca0b09692e1,"[6.016332,47.25295]",Point,,VESOUL3,Vesoul,st_vesoul,5,109-3,available,Feature
+615615f357da3ca0b09692e2,"[5.971838,47.21211]",Point,,LAFAYET2,La Fayette,st_la_fayette,7,63-5,available,Feature
+615615f357da3ca0b09692e3,"[6.013568,47.222897]",Point,,CEPARGN2,"Caisse d'Epargne",st_caisse_depargne,9,5-2,unknown,Feature
+615615f357da3ca0b09692e4,"[6.013819,47.222435]",Point,,CEPARGN1,"Caisse d'Epargne",st_caisse_depargne,9,5-4,unknown,Feature
+615615f357da3ca0b09692e5,"[6.020716190338135,47.24962615966797]",Point,,st_chemin_francais,Chemin Français,,,,unknown,Feature
+615615f357da3ca0b09692e6,"[6.014826774597168,47.26081085205078]",Point,,st_reclus,Reclus,,,,available,Feature
+615615f357da3ca0b09692e7,"[6.025613,47.25145]",Point,,NBRUAND2,Nicolas Bruand,st_nicolas_bruand,12,24-1,unknown,Feature
+615615f357da3ca0b09692e8,"[6.037228584289551,47.24817657470703]",Point,,st_tristan_bernard,Tristan Bernard,,,,available,Feature
+615615f357da3ca0b09692e9,"[6.041709,47.26069]",Point,,t_lila2,Lilas,st_lilas,101,15-1,available,Feature
+615615f357da3ca0b09692ea,"[5.999143,47.27522]",Point,,PLATINE2,École-Valentin - Platine,st_ecolevalentin__platine,8,45-1,available,Feature
+615615f357da3ca0b09692eb,"[6.039756,47.231052]",Point,,CHARDON2,Chardonnet,st_chardonnet,12,24-2,unknown,Feature
+615615f357da3ca0b09692ec,"[5.973859,47.232925]",Point,,EDISON3,Edison,st_edison,10,88-2,unknown,Feature
+615615f357da3ca0b09692ed,"[6.033502,47.25591]",Point,,OISEAUX2,Les Oiseaux,st_les_oiseaux,6,155-2,unknown,Feature
+615615f357da3ca0b09692ee,"[6.01822566986084,47.234832763671875]",Point,,st_8_mai,8 Mai,,,,unknown,Feature
+615615f357da3ca0b09692ef,"[6.022146,47.256638]",Point,,TREY2,Trey,st_trey,8,45-1,unknown,Feature
+615615f357da3ca0b09692f0,"[6.042990684509277,47.26979064941406]",Point,,st_cul_des_pres,Cul des Prés,,,,unknown,Feature
+615615f357da3ca0b09692f1,"[6.01984977722168,47.26140213012695]",Point,,st_cimetiere_st_claude,Cimetière St Claude,,,,unknown,Feature
+615615f357da3ca0b09692f2,"[6.02298,47.24947]",Point,,ESAVOYE1,Eugène Savoye,st_eugene_savoye,8,45-2,unknown,Feature
+615615f357da3ca0b09692f3,"[5.997579574584961,47.259559631347656]",Point,,st_lycee_paris,Lycée Pâris,,,,unknown,Feature
+615615f357da3ca0b09692f4,"[6.0059133,47.228474]",Point,,t_brula1,Brulard,st_brulard,102,15-0,available,Feature
+615615f357da3ca0b09692f5,"[6.000639915466309,47.24597930908203]",Point,,st_palais_des_sports,Palais des Sports,,,,available,Feature
+615615f357da3ca0b09692f6,"[6.00638,47.23722]",Point,,DAVID1,David,st_david,10,88-2,unknown,Feature
+615615f357da3ca0b09692f7,"[6.026273,47.243217]",Point,,DENROCH1,Denfert Rochereau,st_denfert_rochereau,11,55-0,available,Feature
+615615f357da3ca0b09692f8,"[6.042246,47.249584]",Point,,BRULEFO1,Brûlefoin,st_brulefoin,5,109-2,unknown,Feature
+615615f357da3ca0b09692f9,"[6.050570487976074,47.26207733154297]",Point,,st_fort_benoit,Fort Benoît,,,,available,Feature
+615615f357da3ca0b09692fa,"[5.989557,47.23478]",Point,,SAPINS2,Sapins,st_sapins,10,88-4,unknown,Feature
+615615f357da3ca0b09692fb,"[6.043988,47.228252]",Point,,GACOGNE2,Cité des Gacognes,st_cite_des_gacognes,12,24-2,unknown,Feature
+615615f357da3ca0b09692fc,"[6.026199817657471,47.24314880371094]",Point,,st_denfert_rochereau,Denfert Rochereau,,,,available,Feature
+615615f357da3ca0b09692fd,"[5.998594284057617,47.2363395690918]",Point,,st_centre_de_tri,Centre de Tri,,,,unknown,Feature
+615615f357da3ca0b09692fe,"[6.059256,47.25037]",Point,,CLAIRSO2,Clairs Soleils,st_clairs_soleils,5,109-3,available,Feature
+615615f357da3ca0b09692ff,"[5.976015567779541,47.21773147583008]",Point,,st_gauguin,Gauguin,,,,unknown,Feature
+615615f357da3ca0b0969300,"[6.009368896484375,47.22618103027344]",Point,,st_radieuse,Radieuse,,,,unknown,Feature
+615615f357da3ca0b0969301,"[6.048596,47.261307]",Point,,CHARIGN1,Charigney,st_charigney,11,55-0,unknown,Feature
+615615f357da3ca0b0969302,"[5.993914604187012,47.23330307006836]",Point,,st_pelouse,Pelouse,,,,available,Feature
+615615f357da3ca0b0969303,"[5.997542858123779,47.245933532714844]",Point,,st_cite_de_la_baume,Cité de la Baume,,,,available,Feature
+615615f357da3ca0b0969304,"[6.0271482,47.240894]",Point,,t_repu1,République,st_republique,102,15-0,available,Feature
+615615f357da3ca0b0969305,"[6.01496,47.25436]",Point,,JUSTICE2,Justices,st_justices,5,109-2,available,Feature
+615615f357da3ca0b0969306,"[6.022026,47.256554]",Point,,TREY1,Trey,st_trey,12,24-1,unknown,Feature
+615615f357da3ca0b0969307,"[6.010196,47.2682]",Point,,ESSARTS2,Essarts,st_essarts,8,45-1,unknown,Feature
+615615f357da3ca0b0969308,"[6.019868850708008,47.24940490722656]",Point,,st_larmet,Larmet,,,,available,Feature
+615615f357da3ca0b0969309,"[6.019442,47.239464]",Point,,t_batt2,Battant,st_battant,101,15-1,available,Feature
+615615f357da3ca0b096930a,"[5.961742,47.220573]",Point,,PAVIE2,Pavie,st_pavie,7,63-5,unknown,Feature
+615615f357da3ca0b096930b,"[5.963327,47.216717]",Point,,BEARN2,Béarn,st_bearn,4,116-1,available,Feature
+615615f357da3ca0b096930c,"[5.971575,47.223988]",Point,,ARTOIS3,Artois,st_artois,4,116-4,available,Feature
+615615f357da3ca0b096930d,"[5.997477,47.259598]",Point,,LYPARIS1,Lycée Pâris,st_lycee_paris,6,155-3,unknown,Feature
+615615f357da3ca0b096930e,"[6.029981,47.23431]",Point,,VHUGODEV,Victor Hugo,st_victor_hugo,27,49-1,unknown,Feature
+615615f357da3ca0b096930f,"[6.020532,47.25807]",Point,,LYSJEAN2,Lycée Saint Jean,st_lycee_saint_jean,8,45-1,unknown,Feature
+615615f357da3ca0b0969310,"[5.997442,47.245934]",Point,,CITBAUM2,Cité de la Baume,st_cite_de_la_baume,9,5-2,available,Feature
+615615f357da3ca0b0969311,"[6.012653,47.235172]",Point,,CROIXAR2,"Croix d'Arènes",st_croix_darenes,4,116-1,unknown,Feature
+615615f357da3ca0b0969312,"[6.031678199768066,47.26160430908203]",Point,,st_combe_saragosse,Combe Saragosse,,,,unknown,Feature
+615615f357da3ca0b0969313,"[6.043859004974365,47.24839782714844]",Point,,st_duet,Duet,,,,available,Feature
+615615f357da3ca0b0969314,"[5.994129,47.277508]",Point,,ECHVALE2,École-Valentin - Echangeur de Valentin,st_ecolevalentin__echangeur_de_valentin,8,45-1,available,Feature
+615615f357da3ca0b0969315,"[6.05512,47.249622]",Point,,FOYER2,Foyer,st_foyer,5,109-3,unknown,Feature
+615615f357da3ca0b0969316,"[5.9736724,47.21972]",Point,,t_allen1,Allende,st_allende,102,15-0,available,Feature
+615615f357da3ca0b0969317,"[5.966775,47.222363]",Point,,ILDFRAN1,Ile de France,st_ile_de_france,4,116-4,available,Feature
+615615f357da3ca0b0969318,"[6.009383,47.25109]",Point,,CHURCHI2,Churchill,st_churchill,7,63-5,unknown,Feature
+615615f357da3ca0b0969319,"[5.996379852294922,47.246795654296875]",Point,,st_afpa,AFPA,,,,available,Feature
+615615f357da3ca0b096931a,"[6.0202494,47.233673]",Point,,t_cham2,Chamars,st_chamars,101,15-1,available,Feature
+615615f357da3ca0b096931b,"[5.968311309814453,47.21400451660156]",Point,,st_patinoire__piscine,Patinoire / Piscine,,,,unknown,Feature
+615615f357da3ca0b096931c,"[5.963888,47.22642]",Point,,t_chr1,CHRU Minjoz,st_chru_minjoz,102,15-0,available,Feature
+615615f357da3ca0b096931e,"[5.988662,47.23662]",Point,,AMPERE3,Ampère,st_ampere,10,88-4,unknown,Feature
+615615f357da3ca0b096931f,"[6.025262,47.242767]",Point,,ISENBAR2,Isenbart,st_isenbart,5,109-2,available,Feature
+615615f357da3ca0b0969320,"[6.0007,47.24593]",Point,,PALSPOR1,Palais des Sports,st_palais_des_sports,3,119-8,available,Feature
+615615f357da3ca0b096931d,"[6.006711006164551,47.25806427001953]",Point,,st_chemin_des_founottes,Chemin des Founottes,,,,unknown,Feature
+615615f357da3ca0b0969321,"[6.043249,47.25324]",Point,,t_lvai1,Les Vaîtes,st_les_vaites,101,15-0,available,Feature
+615615f357da3ca0b0969322,"[5.987499,47.243294]",Point,,BEAUART2,Beaux Arts,st_beaux_arts,7,63-4,unknown,Feature
+615615f357da3ca0b0969323,"[6.050709,47.262066]",Point,,t_fben1,Fort Benoît,st_fort_benoit,101,15-0,available,Feature
+615615f357da3ca0b0969324,"[6.05485,47.246902]",Point,,ENVELME2,Envelmey,st_envelmey,5,109-3,unknown,Feature
+615615f357da3ca0b0969325,"[5.961498260498047,47.221771240234375]",Point,,st_voltaire,Voltaire,,,,available,Feature
+615615f357da3ca0b0969326,"[6.028106,47.24549]",Point,,t_flo2,Flore,st_flore,102,15-1,available,Feature
+615615f357da3ca0b0969327,"[6.025558948516846,47.253501892089844]",Point,,st_henri_baigue,Henri Baigue,,,,unknown,Feature
+615615f357da3ca0b0969328,"[6.037588119506836,47.26709747314453]",Point,,st_chemin_des_planches,Chemin des Planches,,,,unknown,Feature
+615615f357da3ca0b0969329,"[6.047885894775391,47.24610137939453]",Point,,st_chaffanjon,Chaffanjon,,,,unknown,Feature
+615615f357da3ca0b096932a,"[5.988601,47.232895]",Point,,BASILIQ1,Basilique,st_basilique,10,88-2,unknown,Feature
+615615f357da3ca0b096932b,"[5.976253509521484,47.237571716308594]",Point,,st_chaille,Chaille,,,,unknown,Feature
+615615f357da3ca0b096932c,"[6.018697,47.25524]",Point,,BUFFON2,Buffon,st_buffon,7,63-5,available,Feature
+615615f357da3ca0b096932d,"[6.003408908843994,47.24896240234375]",Point,,st_brossolette_greta,Brossolette Greta,,,,unknown,Feature
+615615f357da3ca0b096932e,"[6.039958477020264,47.241668701171875]",Point,,st_salins_de_bregille,Salins de Bregille,,,,unknown,Feature
+615615f357da3ca0b096932f,"[6.036415,47.238064]",Point,,FONTENO3,Fontenottes,st_fontenottes,10,88-2,unknown,Feature
+615615f357da3ca0b0969330,"[6.0097575187683105,47.242454528808594]",Point,,st_gibelotte,Gibelotte,,,,available,Feature
+615615f357da3ca0b0969331,"[6.050047,47.228275]",Point,,CHARMAR2,Charmarin,st_charmarin,12,24-2,unknown,Feature
+615615f357da3ca0b0969332,"[6.023334,47.26583]",Point,,BQTSO02,Bouquet de Soleils,st_bouquet_de_soleils,12,24-2,unknown,Feature
+615615f357da3ca0b0969333,"[6.011985,47.26548]",Point,,QUATROU2,Quatrouillots,st_quatrouillots,8,45-1,unknown,Feature
+615615f357da3ca0b0969334,"[6.038609,47.25412]",Point,,PAPILLO1,Papillon,st_papillon,11,55-0,unknown,Feature
+615615f357da3ca0b0969335,"[6.013511,47.263557]",Point,,SANSONN1,Sansonnets,st_sansonnets,8,45-2,unknown,Feature
+615615f357da3ca0b0969336,"[6.004495,47.256603]",Point,,SAVARY4,Savary,st_savary,12,24-1,unknown,Feature
+615615f357da3ca0b0969337,"[6.0208,47.23431]",Point,,CHAMESP2,Chamars Esplanade,st_chamars_esplanade,10,88-4,unknown,Feature
+615615f357da3ca0b0969338,"[6.021987,47.24635]",Point,,t_gvio1,Gare Viotte,st_gare_viotte,102,15-0,available,Feature
+615615f357da3ca0b0969339,"[6.007254,47.27074]",Point,,CHVALEN1,Chemin de Valentin,st_chemin_de_valentin,8,45-2,unknown,Feature
+615615f357da3ca0b096933a,"[5.993982315063477,47.27776336669922]",Point,,st_ecolevalentin__echangeur_de_valentin,École-Valentin - Echangeur de Valentin,,,,available,Feature
+615615f357da3ca0b096933b,"[5.999084,47.258198]",Point,,BATICFA2,Bâtiment CFA,st_batiment_cfa,6,155-2,unknown,Feature
+615615f357da3ca0b096933c,"[6.03238582611084,47.26348876953125]",Point,,st_ecole_des_4_vents,Ecole des 4 vents,,,,unknown,Feature
+615615f357da3ca0b096933d,"[6.009854,47.251026]",Point,,CHURCHI1,Churchill,st_churchill,7,63-4,available,Feature
+615615f357da3ca0b096933e,"[6.022867,47.258343]",Point,,SEILER1,Seiler,st_seiler,12,24-1,unknown,Feature
+615615f357da3ca0b096933f,"[6.018365,47.250782]",Point,,LUMIERE2,Lumière,st_lumiere,5,109-2,available,Feature
+615615f357da3ca0b0969340,"[6.04713,47.2671]",Point,,COLPROU2,Collège Proudhon,st_college_proudhon,11,55-0,unknown,Feature
+615615f357da3ca0b0969341,"[5.977323,47.21644]",Point,,POLYCLI5,Polyclinique,st_polyclinique,7,63-4,unknown,Feature
+615615f357da3ca0b0969342,"[5.965639,47.222847]",Point,,PIEMONT1,Piémont,st_piemont,4,116-1,available,Feature
+615615f357da3ca0b0969343,"[5.997785568237305,47.23152160644531]",Point,,st_residence,Résidence,,,,unknown,Feature
+615615f357da3ca0b0969344,"[5.97165,47.22443]",Point,,ARTOIS4,Artois,st_artois,4,116-1,available,Feature
+615615f357da3ca0b0969345,"[5.999265670776367,47.275245666503906]",Point,,st_ecolevalentin__platine,École-Valentin - Platine,,,,available,Feature
+615615f357da3ca0b0969346,"[6.033615,47.242455]",Point,,DIDEROT2,Diderot,st_diderot,5,109-3,unknown,Feature
+615615f357da3ca0b0969347,"[5.949155807495117,47.21579360961914]",Point,,st_chateaufarine,Châteaufarine,,,,available,Feature
+615615f357da3ca0b0969348,"[6.057385,47.24819]",Point,,BREME1,Brême,st_breme,5,109-2,unknown,Feature
+615615f357da3ca0b0969349,"[6.0369157791137695,47.24717330932617]",Point,,st_mermoz,Mermoz,,,,unknown,Feature
+615615f357da3ca0b096934a,"[5.993962,47.233566]",Point,,PELOUSE1,Pelouse,st_pelouse,10,88-2,available,Feature
+615615f357da3ca0b096934b,"[5.9946393966674805,47.25621795654297]",Point,,st_montboucons,Montboucons,,,,unknown,Feature
+615615f357da3ca0b096934c,"[5.98833,47.237457]",Point,,AMPERE1,Ampère,st_ampere,10,88-2,unknown,Feature
+615615f357da3ca0b096934d,"[5.96445,47.235332]",Point,,PROLABO2,Prolabor,st_prolabor,9,5-2,unknown,Feature
+615615f357da3ca0b096934e,"[6.033455,47.240574]",Point,,GAREMOU1,Gare de la Mouillère,st_gare_de_la_mouillere,5,109-2,unknown,Feature
+615615f357da3ca0b096934f,"[5.977908,47.24075]",Point,,THOURET1,Thouret,st_thouret,9,5-4,unknown,Feature
+615615f357da3ca0b0969350,"[6.009300231933594,47.2287483215332]",Point,,st_ste_therese,Ste Thérèse,,,,unknown,Feature
+615615f357da3ca0b0969351,"[6.027466773986816,47.2638053894043]",Point,,st_carriere,Carrière,,,,unknown,Feature
+615615f357da3ca0b0969352,"[6.033507,47.265015]",Point,,VIEILLE2,Vieilley,st_vieilley,11,55-0,unknown,Feature
+615615f357da3ca0b0969353,"[5.9949646,47.235645]",Point,,ATEMUNI4,Ateliers Municipaux,st_ateliers_municipaux,10,88-4,available,Feature
+615615f357da3ca0b0969354,"[6.04508,47.25585]",Point,,t_schw2,Schweitzer,st_schweitzer,101,15-1,available,Feature
+615615f357da3ca0b0969355,"[6.031392,47.232155]",Point,,CITADELL,Citadelle,st_citadelle,27,49-2,available,Feature
+615615f357da3ca0b0969357,"[6.026815,47.250763]",Point,,BELVEDE1,Belvédère,st_belvedere,12,24-2,unknown,Feature
+615615f357da3ca0b0969356,"[5.960158,47.2231]",Point,,DOLTO01,Dolto,st_dolto,7,63-5,unknown,Feature
+615615f357da3ca0b0969358,"[6.030527,47.252552]",Point,,PDC1,Pont des Cras,st_pont_des_cras,6,155-3,available,Feature
+615615f357da3ca0b0969359,"[6.028897,47.23638]",Point,,JEANCOR1,Jean Cornet,st_jean_cornet,27,49-2,available,Feature
+615615f357da3ca0b096935a,"[5.99036,47.25215]",Point,,USPORTS1,U-Sports,st_usports,7,63-4,available,Feature
+615615f357da3ca0b096935b,"[6.035329,47.245857]",Point,,LYSPAUL1,Lycée St Paul,st_lycee_st_paul,5,109-2,available,Feature
+615615f357da3ca0b096935c,"[6.005563,47.250347]",Point,,NOTDAME1,Notre Dame,st_notre_dame,9,5-4,unknown,Feature
+615615f357da3ca0b096935d,"[5.968735,47.213833]",Point,,PATINOI2,Patinoire / Piscine,st_patinoire__piscine,7,63-5,unknown,Feature
+615615f357da3ca0b096935e,"[6.016822,47.256367]",Point,,GRENOT2,Grenot,st_grenot,8,45-1,unknown,Feature
+615615f357da3ca0b096935f,"[6.034121,47.26549]",Point,,VIEILLE1,Vieilley,st_vieilley,11,55-1,unknown,Feature
+615615f357da3ca0b0969360,"[6.028113,47.255077]",Point,,PBT1,Paul Bert,st_paul_bert,4,116-4,available,Feature
+615615f357da3ca0b0969361,"[6.024275,47.2378]",Point,,HUITSEP1,8 Septembre,st_8_septembre,27,49-2,available,Feature
+615615f357da3ca0b0969362,"[6.057936,47.251343]",Point,,BOISPAU1,Bois St Paul,st_bois_st_paul,5,109-3,unknown,Feature
+615615f357da3ca0b0969363,"[6.04682,47.26306]",Point,,STPIEX1,St Pie X,st_st_pie_x,6,155-3,unknown,Feature
+615615f357da3ca0b0969364,"[6.022168,47.24618]",Point,,GAREVIO1,Gare Viotte,st_gare_viotte,5,109-2,available,Feature
+615615f357da3ca0b0969365,"[6.055562,47.249763]",Point,,FOYER1,Foyer,st_foyer,5,109-2,unknown,Feature
+615615f357da3ca0b0969366,"[5.986483097076416,47.24443817138672]",Point,,st_ufr_sciences,UFR Sciences,,,,unknown,Feature
+615615f357da3ca0b0969367,"[6.020823955535889,47.23454284667969]",Point,,st_chamars_esplanade,Chamars Esplanade,,,,unknown,Feature
+615615f357da3ca0b0969368,"[6.049666,47.267296]",Point,,GRDBUIS2,Grand Buisson,st_grand_buisson,7,63-4,unknown,Feature
+615615f357da3ca0b0969369,"[5.964341640472412,47.22671127319336]",Point,,st_chru_minjoz,CHRU Minjoz,,,,available,Feature
+615615f357da3ca0b096936a,"[5.966684,47.222607]",Point,,ILDFRAN3,Ile de France,st_ile_de_france,4,116-1,available,Feature
+615615f357da3ca0b096936b,"[6.033733,47.24245]",Point,,DIDEROT1,Diderot,st_diderot,5,109-2,unknown,Feature
+615615f357da3ca0b096936c,"[5.967888,47.214172]",Point,,PATINOI1,Patinoire / Piscine,st_patinoire__piscine,7,63-4,available,Feature
+615615f357da3ca0b096936d,"[6.028361797332764,47.240509033203125]",Point,,st_centre_st_pierre,Centre St Pierre,,,,unknown,Feature
+615615f357da3ca0b096936e,"[5.96726131439209,47.21563720703125]",Point,,st_garnier,Garnier,,,,available,Feature
+615615f357da3ca0b096936f,"[5.987570762634277,47.24674987792969]",Point,,st_bibliotheques_univ,Bibliothèques Univ.,,,,unknown,Feature
+615615f357da3ca0b0969370,"[6.0373807,47.248196]",Point,,t_tbern1,Tristan Bernard,st_tristan_bernard,101,15-0,available,Feature
+615615f357da3ca0b0969371,"[6.039701,47.239]",Point,,FABRE1,Fabre,st_fabre,10,88-2,unknown,Feature
+615615f357da3ca0b0969372,"[6.014325141906738,47.24147415161133]",Point,,st_lycee_jules_haag,Lycée Jules Haag,,,,available,Feature
+615615f357da3ca0b0969374,"[5.951414108276367,47.221561431884766]",Point,,st_hauts_du_chazal,Hauts du Chazal,,,,unknown,Feature
+615615f357da3ca0b0969375,"[5.992286,47.281887]",Point,,CENTCOM3,École-Valentin - Centre Commercial,st_ecolevalentin__centre_commercial,8,45-2,available,Feature
+615615f357da3ca0b0969373,"[5.964963912963867,47.218772888183594]",Point,,st_languedoc,Languedoc,,,,available,Feature
+615615f357da3ca0b0969376,"[6.026592,47.24107]",Point,,REPUBL2,République,st_republique,11,55-1,unknown,Feature
+615615f357da3ca0b0969377,"[6.041213,47.242603]",Point,,GAIFFE2,Gaiffe,st_gaiffe,10,88-4,available,Feature
+615615f357da3ca0b0969378,"[6.0337963,47.245975]",Point,,t_farg1,Fontaine Argent,st_fontaine_argent,101,15-0,available,Feature
+615615f357da3ca0b0969379,"[6.04678,47.26309]",Point,,STPIEX2,St Pie X,st_st_pie_x,6,155-2,unknown,Feature
+615615f357da3ca0b096937a,"[6.039386,47.25902]",Point,,DEBUSSY1,Debussy,st_debussy,6,155-3,unknown,Feature
+615615f357da3ca0b096937b,"[6.025303,47.240883]",Point,,COURBET1,Courbet,st_courbet,11,55-0,unknown,Feature
+615615f357da3ca0b096937c,"[6.01423,47.24133]",Point,,JULEHAG3,Lycée Jules Haag,st_lycee_jules_haag,6,155-3,available,Feature
+615615f357da3ca0b096937d,"[6.027254,47.247818]",Point,,ROTONDE1,Rotonde,st_rotonde,12,24-1,unknown,Feature
+615615f357da3ca0b096937e,"[6.014093,47.219437]",Point,,JOURNAU2,Journaux,st_journaux,9,5-2,unknown,Feature
+615615f357da3ca0b096937f,"[5.986136436462402,47.243247985839844]",Point,,st_papin,Papin,,,,unknown,Feature
+615615f357da3ca0b0969380,"[5.965651988983154,47.22282409667969]",Point,,st_piemont,Piémont,,,,available,Feature
+615615f357da3ca0b0969381,"[6.025601,47.253513]",Point,,HBAIGUE2,Henri Baigue,st_henri_baigue,8,45-1,unknown,Feature
+615615f357da3ca0b0969382,"[6.0153656005859375,47.24132537841797]",Point,,st_siffert,Siffert,,,,unknown,Feature
+615615f357da3ca0b0969383,"[5.989171028137207,47.229129791259766]",Point,,st_concorde,Concorde,,,,available,Feature
+615615f357da3ca0b0969384,"[6.0575151443481445,47.2484130859375]",Point,,st_breme,Brême,,,,unknown,Feature
+615615f357da3ca0b0969385,"[6.0386199951171875,47.24079895019531]",Point,,st_aiguille,Aiguille,,,,unknown,Feature
+615615f357da3ca0b0969386,"[5.971612453460693,47.22420883178711]",Point,,st_artois,Artois,,,,available,Feature
+615615f357da3ca0b0969387,"[6.019676208496094,47.2397575378418]",Point,,st_battant,Battant,,,,unknown,Feature
+615615f357da3ca0b0969388,"[6.050732612609863,47.249420166015625]",Point,,st_donzelot,Donzelot,,,,unknown,Feature
+615615f357da3ca0b0969389,"[6.016786575317383,47.256195068359375]",Point,,st_grenot,Grenot,,,,unknown,Feature
+615615f357da3ca0b096938a,"[6.044990539550781,47.26089096069336]",Point,,st_pierre_et_marie_curie,Pierre et Marie Curie,,,,unknown,Feature
+615615f357da3ca0b096938b,"[6.0101423263549805,47.268211364746094]",Point,,st_essarts,Essarts,,,,unknown,Feature
+615615f357da3ca0b096938c,"[5.955965995788574,47.223411560058594]",Point,,st_ufr_sante,UFR Santé,,,,unknown,Feature
+615615f357da3ca0b096938d,"[6.022604,47.25536]",Point,,FCLERC3,Francis Clerc,st_francis_clerc,8,45-1,unknown,Feature
+615615f357da3ca0b096938e,"[6.004226,47.2501]",Point,,NOTDAME2,Notre Dame,st_notre_dame,7,63-5,unknown,Feature
+615615f357da3ca0b096938f,"[6.005687,47.237087]",Point,,DAVID2,David,st_david,10,88-4,unknown,Feature
+615615f357da3ca0b0969390,"[6.022952079772949,47.24046325683594]",Point,,st_revolution,Révolution,,,,available,Feature
+615615f357da3ca0b0969391,"[5.9782562255859375,47.22076416015625]",Point,,st_micropolis,Micropolis,,,,available,Feature
+615615f357da3ca0b0969392,"[6.029834747314453,47.234642028808594]",Point,,st_victor_hugo,Victor Hugo,,,,unknown,Feature
+615615f357da3ca0b0969393,"[5.992518424987793,47.23130416870117]",Point,,st_meslier,Meslier,,,,unknown,Feature
+615615f357da3ca0b0969394,"[6.016087,47.25319]",Point,,VESOUL4,Vesoul,st_vesoul,5,109-2,available,Feature
+615615f357da3ca0b0969395,"[6.031016,47.253487]",Point,,PDC3,Pont des Cras,st_pont_des_cras,6,155-2,available,Feature
+615615f357da3ca0b0969396,"[6.027008,47.2487]",Point,,CHANOIS1,Chanois,st_chanois,12,24-1,unknown,Feature
+615615f357da3ca0b0969397,"[6.016209602355957,47.25306701660156]",Point,,st_vesoul,Vesoul,,,,available,Feature
+615615f357da3ca0b0969398,"[5.995986,47.261044]",Point,,FOUNOTTE,Founottes,st_founottes,6,155-3,unknown,Feature
+615615f357da3ca0b0969399,"[5.96638,47.217316]",Point,,PLANOIS1,Planoise,st_planoise,7,63-4,unknown,Feature
+615615f357da3ca0b096939a,"[5.976064,47.21765]",Point,,GAUGIN1,Gauguin,st_gauguin,7,63-4,unknown,Feature
+615615f357da3ca0b096939b,"[6.015948295593262,47.23604965209961]",Point,,st_canot,Canot,,,,available,Feature
+615615f357da3ca0b096939c,"[6.022293,47.250854]",Point,,COLSENE1,Colsenet,st_colsenet,8,45-2,unknown,Feature
+615615f357da3ca0b096939d,"[6.015688419342041,47.25962829589844]",Point,,st_psb,PSB,,,,unknown,Feature
+615615f357da3ca0b096939e,"[5.995118141174316,47.225006103515625]",Point,,st_rosemont,Rosemont,,,,available,Feature
+615615f357da3ca0b096939f,"[6.006214141845703,47.24761962890625]",Point,,st_deville,Deville,,,,unknown,Feature
+615615f357da3ca0b09693a0,"[5.972838401794434,47.2251091003418]",Point,,st_flandres,Flandres,,,,available,Feature
+615615f357da3ca0b09693a1,"[5.997265,47.25319]",Point,,TEMIS4,Temis,st_temis,12,24-1,unknown,Feature
+615615f357da3ca0b09693a2,"[6.049343109130859,47.2674560546875]",Point,,st_grand_buisson,Grand Buisson,,,,unknown,Feature
+615615f357da3ca0b09693a3,"[6.02871,47.258602]",Point,,LANCHY2,Lanchy,st_lanchy,4,116-4,unknown,Feature
+615615f357da3ca0b09693a4,"[5.984286308288574,47.228023529052734]",Point,,st_oratoire,Oratoire,,,,available,Feature
+615615f357da3ca0b09693a5,"[6.028507,47.247612]",Point,,LIBERTE3,Liberté,st_liberte,11,55-1,available,Feature
+615615f357da3ca0b09693a6,"[6.015026569366455,47.25292205810547]",Point,,st_beauquier,Beauquier,,,,unknown,Feature
+615615f357da3ca0b09693a7,"[6.015444,47.241398]",Point,,SIFFERT2,Siffert,st_siffert,10,88-4,unknown,Feature
+615615f357da3ca0b09693a8,"[6.020848,47.23478]",Point,,CHAMESP1,Chamars Esplanade,st_chamars_esplanade,27,49-1,unknown,Feature
+615615f357da3ca0b09693a9,"[5.983451,47.23254]",Point,,AMITIE1,Amitié,st_amitie,7,63-4,available,Feature
+615615f357da3ca0b09693aa,"[6.029983997344971,47.25020980834961]",Point,,st_suard,Suard,,,,unknown,Feature
+615615f357da3ca0b09693ab,"[5.994174,47.242584]",Point,,STMARTI2,St Martin,st_st_martin,7,63-5,available,Feature
+615615f357da3ca0b09693ac,"[5.984728,47.235012]",Point,,LAVOISI1,Lavoisier,st_lavoisier,10,88-2,available,Feature
+615615f357da3ca0b09693ad,"[5.975967,47.21781]",Point,,GAUGIN2,Gauguin,st_gauguin,7,63-5,unknown,Feature
+615615f357da3ca0b09693ae,"[6.049076,47.243538]",Point,,DANTON1,Danton,st_danton,5,109-2,available,Feature
+615615f357da3ca0b09693af,"[6.035275,47.237095]",Point,,SPORNAU3,Sport Nautique,st_sport_nautique,12,24-1,unknown,Feature
+615615f357da3ca0b09693b0,"[6.02166,47.24402]",Point,,REMPART2,Remparts,st_remparts,8,45-2,unknown,Feature
+615615f357da3ca0b09693b1,"[5.988495826721191,47.237037658691406]",Point,,st_ampere,Ampère,,,,unknown,Feature
+615615f357da3ca0b09693b2,"[5.985851287841797,47.25065994262695]",Point,,st_campus_arago,Campus Arago,,,,available,Feature
+615615f357da3ca0b09693b3,"[6.038053,47.253735]",Point,,PAPILLO2,Papillon,st_papillon,11,55-1,unknown,Feature
+615615f357da3ca0b09693b4,"[6.034726,47.25124]",Point,,BAILLE2,Baille,st_baille,11,55-1,unknown,Feature
+615615f357da3ca0b09693b5,"[6.000534,47.250816]",Point,,POLSPOR2,Pôle Sportif,st_pole_sportif,7,63-5,unknown,Feature
+615615f357da3ca0b09693b6,"[6.021296,47.258324]",Point,,LYSJEAN1,Lycée Saint Jean,st_lycee_saint_jean,8,45-2,unknown,Feature
+615615f357da3ca0b09693b7,"[6.030375,47.272675]",Point,,MONTARMO,Montarmots,st_montarmots,12,24-2,unknown,Feature
+615615f357da3ca0b09693b8,"[6.015292,47.25299]",Point,,BEAUQUI1,Beauquier,st_beauquier,7,63-4,unknown,Feature
+615615f357da3ca0b09693b9,"[5.9826303,47.22261]",Point,,t_malc1,Malcombe,st_malcombe,102,15-0,available,Feature
+615615f357da3ca0b09693ba,"[6.021718978881836,47.25114822387695]",Point,,st_colsenet,Colsenet,,,,unknown,Feature
+615615f357da3ca0b09693bb,"[5.967015266418457,47.22220993041992]",Point,,st_ile_de_france,Ile de France,,,,available,Feature
+615615f357da3ca0b09693bc,"[6.026937484741211,47.240970611572266]",Point,,st_republique,République,,,,unknown,Feature
+615615f357da3ca0b09693bd,"[6.027452,47.235756]",Point,,SMAURIC1,St Maurice,st_st_maurice,27,49-1,unknown,Feature
+615615f357da3ca0b09693be,"[6.039988994598389,47.23080062866211]",Point,,st_chardonnet,Chardonnet,,,,unknown,Feature
+615615f357da3ca0b09693bf,"[6.036547,47.261578]",Point,,GOUNOD1,Gounod,st_gounod,7,63-4,unknown,Feature
+615615f357da3ca0b09693c0,"[5.979162,47.223587]",Point,,PARCEXP1,Parc des Expositions,st_parc_des_expositions,7,63-4,unknown,Feature
+615615f357da3ca0b09693c1,"[6.052358,47.243404]",Point,,BREGILLE,Bregille,st_bregille,5,109-3,available,Feature
+615615f357da3ca0b09693c2,"[6.041531,47.240208]",Point,,FORTBRE1,Fort de Bregille,st_fort_de_bregille,10,88-2,unknown,Feature
+615615f357da3ca0b09693c3,"[6.014808654785156,47.25454330444336]",Point,,st_justices,Justices,,,,available,Feature
+615615f357da3ca0b09693c4,"[5.960305,47.223076]",Point,,DOLTO02,Dolto,st_dolto,7,63-4,unknown,Feature
+615615f357da3ca0b09693c5,"[5.967356,47.221825]",Point,,t_idf1,Ile de France,st_ile_de_france,102,15-0,available,Feature
+615615f357da3ca0b09693c6,"[5.986635208129883,47.24845504760742]",Point,,st_crous_universite,Crous Université,,,,unknown,Feature
+615615f357da3ca0b09693c7,"[6.013038,47.24464]",Point,,WEISS3,Weiss,st_weiss,9,5-4,unknown,Feature
+615615f357da3ca0b09693c8,"[5.957578659057617,47.21815872192383]",Point,,st_marot,Marot,,,,available,Feature
+615615f357da3ca0b09693c9,"[6.033217,47.236073]",Point,,CITAR02,Cité des Arts,st_cite_des_arts,11,55-1,unknown,Feature
+615615f357da3ca0b09693ca,"[5.959959,47.221615]",Point,,CROIZ01,Croizat,st_croizat,7,63-5,unknown,Feature
+615615f357da3ca0b09693cb,"[6.043004,47.26978]",Point,,CULPRES1,Cul des Prés,st_cul_des_pres,11,55-1,unknown,Feature
+615615f357da3ca0b09693cc,"[6.044633,47.26292]",Point,,CRAS,Orchamps,st_orchamps,11,55-1,available,Feature
+615615f357da3ca0b09693cd,"[6.006033897399902,47.237152099609375]",Point,,st_david,David,,,,unknown,Feature
+615615f357da3ca0b09693ce,"[6.0228986740112305,47.2552490234375]",Point,,st_francis_clerc,Francis Clerc,,,,unknown,Feature
+615615f357da3ca0b09693cf,"[6.035411,47.237015]",Point,,SPORNAU2,Sport Nautique,st_sport_nautique,12,24-2,unknown,Feature
+615615f357da3ca0b09693d0,"[6.00522,47.23976]",Point,,MARMIER2,Marmier,st_marmier,10,88-2,unknown,Feature
+615615f357da3ca0b09693d1,"[6.0105643,47.229855]",Point,,t_poly2,Polygone,st_polygone,101,15-1,available,Feature
+615615f357da3ca0b09693d2,"[6.022374,47.251965]",Point,,CVIOTTE2,Cité Viotte,st_cite_viotte,8,45-1,unknown,Feature
+615615f357da3ca0b09693d3,"[5.988785743713379,47.238685607910156]",Point,,st_kennedy,Kennedy,,,,available,Feature
+615615f357da3ca0b09693d4,"[5.986248,47.24444]",Point,,UFRSCIE2,UFR Sciences,st_ufr_sciences,7,63-5,unknown,Feature
+615615f357da3ca0b09693d5,"[6.030771255493164,47.253021240234375]",Point,,st_pont_des_cras,Pont des Cras,,,,available,Feature
+615615f357da3ca0b09693d6,"[6.042134,47.24959]",Point,,BRULEFO2,Brûlefoin,st_brulefoin,5,109-3,unknown,Feature
+615615f357da3ca0b09693d7,"[5.999067,47.247562]",Point,,INTERMA2,Intermarché,st_intermarche,9,5-2,unknown,Feature
+615615f357da3ca0b09693d8,"[6.055340766906738,47.24969482421875]",Point,,st_foyer,Foyer,,,,unknown,Feature
+615615f357da3ca0b09693d9,"[6.029967,47.259666]",Point,,QUATVEN1,4 Vents,st_4_vents,7,63-4,available,Feature
+615615f357da3ca0b09693db,"[5.976218,47.23757]",Point,,CHAILLE2,Chaille,st_chaille,9,5-2,unknown,Feature
+615615f357da3ca0b09693da,"[6.011673,47.22452]",Point,,MOINGEO2,Résidence Moingeon,st_residence_moingeon,9,5-2,unknown,Feature
+615615f357da3ca0b09693dc,"[6.004314,47.23705]",Point,,CASERNE1,Casernes,st_casernes,10,88-2,unknown,Feature
+615615f357da3ca0b09693dd,"[6.0138493,47.242233]",Point,,VOIRIN1,Voirin,st_voirin,10,88-2,available,Feature
+615615f357da3ca0b09693de,"[6.035539,47.251816]",Point,,BAILLE1,Baille,st_baille,11,55-0,unknown,Feature
+615615f357da3ca0b09693df,"[5.973512,47.224888]",Point,,FLANDRE1,Flandres,st_flandres,4,116-4,available,Feature
+615615f357da3ca0b09693e0,"[6.019724,47.24955]",Point,,LARMET1,Larmet,st_larmet,5,109-3,available,Feature
+615615f357da3ca0b09693e1,"[5.980090618133545,47.24453353881836]",Point,,st_clinique_st_vincent,Clinique St Vincent,,,,unknown,Feature
+615615f357da3ca0b09693e2,"[6.030501,47.251152]",Point,,FOURIER1,Fourier,st_fourier,6,155-3,unknown,Feature
+615615f357da3ca0b09693e3,"[6.037749,47.26713]",Point,,CHEPLAN1,Chemin des Planches,st_chemin_des_planches,11,55-1,unknown,Feature
+615615f357da3ca0b09693e4,"[6.0228295,47.24041]",Point,,t_revo2,Révolution,st_revolution,101,15-1,available,Feature
+615615f357da3ca0b09693e5,"[5.983450889587402,47.232540130615234]",Point,,st_amitie,Amitié,,,,available,Feature
+615615f357da3ca0b09693e7,"[5.963335,47.21667]",Point,,BEARN1,Béarn,st_bearn,4,116-4,unknown,Feature
+615615f357da3ca0b09693e6,"[6.014411926269531,47.23045349121094]",Point,,st_chaudanne,Chaudanne,,,,unknown,Feature
+615615f357da3ca0b09693e8,"[6.042456,47.249886]",Point,,t_brule1,Brûlefoin,st_brulefoin,101,15-0,available,Feature
+615615f357da3ca0b09693e9,"[6.051061,47.265003]",Point,,PALEI,Palente Espace Industriel,st_palente_espace_industriel,7,63-4,available,Feature
+615615f357da3ca0b09693ea,"[5.978793,47.24202]",Point,,BAVEREZ1,Baverez,st_baverez,9,5-4,unknown,Feature
+615615f357da3ca0b09693eb,"[6.022851,47.263287]",Point,,FLSAUT01,"Feuilles d'Automne",st_feuilles_dautomne,12,24-1,unknown,Feature
+615615f357da3ca0b09693ec,"[6.002917,47.274315]",Point,,CHAMPET2,École-Valentin - Champêtre,st_ecolevalentin__champetre,8,45-1,available,Feature
+615615f357da3ca0b09693ed,"[6.0609517097473145,47.261314392089844]",Point,,st_chalezeule__chalezeule,Chalezeule - Chalezeule,,,,available,Feature
+615615f357da3ca0b09693ee,"[5.9895172119140625,47.23462677001953]",Point,,st_sapins,Sapins,,,,unknown,Feature
+615615f357da3ca0b09693ef,"[6.018230438232422,47.25093078613281]",Point,,st_lumiere,Lumière,,,,available,Feature
+615615f357da3ca0b09693f0,"[6.037011,47.23413]",Point,,PORJOIN2,Port Joint,st_port_joint,12,24-2,unknown,Feature
+615615f357da3ca0b09693f1,"[6.0270724,47.240948]",Point,,t_repu2,République,st_republique,101,15-1,available,Feature
+615615f357da3ca0b09693f2,"[6.037148,47.233818]",Point,,PORJOIN1,Port Joint,st_port_joint,12,24-1,available,Feature
+615615f357da3ca0b09693f3,"[6.013273,47.25593]",Point,,CHARMIL1,Charmilles,st_charmilles,5,109-3,unknown,Feature
+615615f357da3ca0b09693f4,"[6.008076,47.26985]",Point,,ECOLETO2,Ecole des Torcols,st_ecole_des_torcols,8,45-1,unknown,Feature
+615615f357da3ca0b09693f5,"[5.978666305541992,47.242801666259766]",Point,,st_baverez,Baverez,,,,unknown,Feature
+615615f357da3ca0b09693f6,"[5.951406,47.22164]",Point,,t_hdc2,Hauts du Chazal,st_hauts_du_chazal,101,15-1,available,Feature
+615615f357da3ca0b09693f7,"[6.026901,47.2492]",Point,,CHANOIS2,Chanois,st_chanois,12,24-2,unknown,Feature
+615615f357da3ca0b09693f8,"[6.036385,47.24698]",Point,,MERMOZ2,Mermoz,st_mermoz,5,109-3,unknown,Feature
+615615f357da3ca0b09693f9,"[5.997284,47.2533]",Point,,TEMIS1,Temis,st_temis,12,24-2,unknown,Feature
+615615f357da3ca0b09693fa,"[6.018504,47.256577]",Point,,WYRSCH2,Wyrsch,st_wyrsch,8,45-1,unknown,Feature
+615615f357da3ca0b09693fb,"[6.041407108306885,47.24009704589844]",Point,,st_fort_de_bregille,Fort de Bregille,,,,unknown,Feature
+615615f357da3ca0b09693fc,"[6.041277,47.24273]",Point,,GAIFFE1,Gaiffe,st_gaiffe,10,88-2,available,Feature
+615615f357da3ca0b09693fd,"[6.037446,47.247368]",Point,,MERMOZ1,Mermoz,st_mermoz,5,109-2,unknown,Feature
+615615f357da3ca0b09693fe,"[6.040741,47.26269]",Point,,CHOPIN2,Chopin,st_chopin,7,63-5,available,Feature
+615615f357da3ca0b09693ff,"[6.031517,47.248768]",Point,,MARILOU1,Marie Louise,st_marie_louise,11,55-0,available,Feature
+615615f357da3ca0b0969400,"[6.020014,47.24926]",Point,,LARMET2,Larmet,st_larmet,5,109-2,available,Feature
+615615f357da3ca0b0969401,"[5.9779186,47.236443]",Point,,FRESNEL4,Fresnel,st_fresnel,10,88-4,unknown,Feature
+615615f357da3ca0b0969402,"[6.05812931060791,47.25139236450195]",Point,,st_bois_st_paul,Bois St Paul,,,,unknown,Feature
+615615f357da3ca0b0969403,"[6.049769,47.228115]",Point,,CHARMAR1,Charmarin,st_charmarin,12,24-1,unknown,Feature
+615615f357da3ca0b0969404,"[5.964474678039551,47.2353515625]",Point,,st_prolabor,Prolabor,,,,unknown,Feature
+615615f357da3ca0b0969405,"[5.98644,47.24853]",Point,,CROUUNI2,Crous Université,st_crous_universite,7,63-4,unknown,Feature
+615615f357da3ca0b0969406,"[6.020716,47.249626]",Point,,CFRANCA1,Chemin Français,st_chemin_francais,8,45-1,unknown,Feature
+615615f357da3ca0b0969407,"[5.997274398803711,47.25324249267578]",Point,,st_temis,Temis,,,,unknown,Feature
+615615f357da3ca0b0969408,"[6.0093,47.22875]",Point,,STETHER1,Ste Thérèse,st_ste_therese,9,5-4,unknown,Feature
+615615f357da3ca0b0969409,"[5.9952416,47.225025]",Point,,t_rose1,Rosemont,st_rosemont,102,15-0,available,Feature
+615615f357da3ca0b096940a,"[6.0457000732421875,47.24512481689453]",Point,,st_colombot,Colombot,,,,unknown,Feature
+615615f357da3ca0b096940b,"[5.994769,47.256294]",Point,,BOUCONS2,Montboucons,st_montboucons,12,24-1,unknown,Feature
+615615f357da3ca0b096940c,"[6.048351287841797,47.26115798950195]",Point,,st_charigney,Charigney,,,,unknown,Feature
+615615f357da3ca0b096940d,"[6.028158664703369,47.24568176269531]",Point,,st_flore,Flore,,,,unknown,Feature
+615615f357da3ca0b096940e,"[5.99554,47.243668]",Point,,STMARTI1,St Martin,st_st_martin,9,5-4,available,Feature
+615615f357da3ca0b096940f,"[6.006947,47.258205]",Point,,CHEFOUN1,Chemin des Founottes,st_chemin_des_founottes,12,24-1,unknown,Feature
+615615f357da3ca0b0969410,"[6.030375003814697,47.272674560546875]",Point,,st_montarmots,Montarmots,,,,unknown,Feature
+615615f357da3ca0b0969411,"[5.984648704528809,47.23502731323242]",Point,,st_lavoisier,Lavoisier,,,,unknown,Feature
+615615f357da3ca0b0969412,"[6.002034,47.232517]",Point,,JEANJAU1,Jean Jaurès,st_jean_jaures,4,116-4,available,Feature
+615615f357da3ca0b0969413,"[6.020035,47.233418]",Point,,CHAMARS1,Chamars,st_chamars,9,5-4,available,Feature
+615615f357da3ca0b0969414,"[6.041244983673096,47.24266815185547]",Point,,st_gaiffe,Gaiffe,,,,available,Feature
+615615f357da3ca0b0969415,"[5.986128,47.243263]",Point,,PAPIN4,Papin,st_papin,7,63-4,unknown,Feature
+615615f357da3ca0b0969416,"[6.0555524826049805,47.263389587402344]",Point,,st_chalezeule__marnieres,Chalezeule - Marnières,,,,available,Feature
+615615f357da3ca0b0969417,"[6.020109176635742,47.2470817565918]",Point,,st_gare_viotte_nord,Gare Viotte Nord,,,,available,Feature
+615615f357da3ca0b0969418,"[6.033674,47.24595]",Point,,t_farg2,Fontaine Argent,st_fontaine_argent,101,15-1,available,Feature
+615615f357da3ca0b0969419,"[5.961896,47.215397]",Point,,DEVIGNY2,De Vigny,st_de_vigny,4,116-1,available,Feature
+615615f357da3ca0b096941a,"[6.008686,47.269123]",Point,,ECOLETO1,Ecole des Torcols,st_ecole_des_torcols,8,45-2,unknown,Feature
+615615f357da3ca0b096941b,"[5.998152,47.23164]",Point,,RESIDEN2,Résidence,st_residence,4,116-1,unknown,Feature
+615615f357da3ca0b096941c,"[6.026186943054199,47.23945617675781]",Point,,st_poste,Poste,,,,available,Feature
+615615f357da3ca0b096941d,"[6.026047229766846,47.23626708984375]",Point,,st_carmes,Carmes,,,,available,Feature
+615615f357da3ca0b096941e,"[6.000518798828125,47.250816345214844]",Point,,st_pole_sportif,Pôle Sportif,,,,unknown,Feature
+615615f357da3ca0b096941f,"[6.005743980407715,47.22846984863281]",Point,,st_brulard,Brulard,,,,available,Feature
+615615f357da3ca0b0969420,"[6.028376579284668,47.25715637207031]",Point,,st_fluttes_agasses,Fluttes Agasses,,,,unknown,Feature
+615615f357da3ca0b0969421,"[6.032745361328125,47.23799133300781]",Point,,st_pont_de_bregille,Pont de Bregille,,,,unknown,Feature
+615615f357da3ca0b0969422,"[6.0422015,47.257374]",Point,,t_cdp1,Croix de Palente,st_croix_de_palente,101,15-0,available,Feature
+615615f357da3ca0b0969423,"[5.949156,47.215794]",Point,,CHATEAU1,Châteaufarine,st_chateaufarine,4,116-4,available,Feature
+615615f357da3ca0b0969424,"[5.994396,47.230595]",Point,,BASC1,Bascule,st_bascule,4,116-4,available,Feature
+615615f357da3ca0b0969425,"[6.029688,47.234978]",Point,,VICHUGO1,Victor Hugo,st_victor_hugo,27,49-2,available,Feature
+615615f357da3ca0b0969426,"[6.015066146850586,47.23769760131836]",Point,,st_janvier,Janvier,,,,available,Feature
+615615f357da3ca0b0969427,"[6.046761,47.26656]",Point,,COLPROU1,Collège Proudhon,st_college_proudhon,11,55-1,unknown,Feature
+615615f357da3ca0b0969428,"[6.028132,47.269455]",Point,,CHESELL2,Chemin de la Selle,st_chemin_de_la_selle,12,24-2,unknown,Feature
+615615f357da3ca0b0969429,"[5.963475,47.21982]",Point,,VIVARAI2,Vivarais,st_vivarais,7,63-5,available,Feature
+615615f357da3ca0b096942a,"[6.043374,47.248276]",Point,,DUET1,Duet,st_duet,5,109-2,available,Feature
+615615f357da3ca0b096942b,"[6.047121,47.24885]",Point,,MAGELLA1,Magellan,st_magellan,5,109-2,unknown,Feature
+615615f357da3ca0b096942c,"[6.027457237243652,47.26641845703125]",Point,,st_vallon_du_jour,Vallon du Jour,,,,unknown,Feature
+615615f357da3ca0b096942d,"[5.988883018493652,47.233055114746094]",Point,,st_basilique,Basilique,,,,unknown,Feature
+615615f357da3ca0b096942e,"[6.028896808624268,47.23638153076172]",Point,,st_jean_cornet,Jean Cornet,,,,available,Feature
+615615f357da3ca0b096942f,"[5.994995,47.224987]",Point,,t_rose2,Rosemont,st_rosemont,101,15-1,available,Feature
+615615f357da3ca0b0969430,"[6.01442,47.24162]",Point,,JULEHAG4,Lycée Jules Haag,st_lycee_jules_haag,6,155-2,available,Feature
+615615f357da3ca0b0969431,"[5.971709,47.212135]",Point,,LAFAYET1,La Fayette,st_la_fayette,7,63-4,available,Feature
+615615f357da3ca0b0969432,"[6.027482,47.263958]",Point,,CARRIER2,Carrière,st_carriere,12,24-2,unknown,Feature
+615615f357da3ca0b0969433,"[6.053614139556885,47.229652404785156]",Point,,st_pres_de_vaux,Prés de Vaux,,,,unknown,Feature
+615615f357da3ca0b0969434,"[6.014594078063965,47.237239837646484]",Point,,st_oudet,Oudet,,,,available,Feature
+615615f357da3ca0b0969435,"[6.0210466384887695,47.24250411987305]",Point,,st_bacchus,Bacchus,,,,unknown,Feature
+615615f357da3ca0b0969436,"[6.012372970581055,47.26511764526367]",Point,,st_quatrouillots,Quatrouillots,,,,unknown,Feature
+615615f357da3ca0b0969437,"[6.0421796,47.249786]",Point,,t_brule2,Brûlefoin,st_brulefoin,101,15-1,available,Feature
+615615f357da3ca0b0969438,"[6.028145,47.246075]",Point,,FLORE2,Flore,st_flore,11,55-0,unknown,Feature
+615615f357da3ca0b0969439,"[5.998833,47.236378]",Point,,CENTTRI2,Centre de Tri,st_centre_de_tri,10,88-4,unknown,Feature
+615615f357da3ca0b096943a,"[6.035137,47.245487]",Point,,LYSPAUL2,Lycée St Paul,st_lycee_st_paul,5,109-3,available,Feature
+615615f357da3ca0b096943b,"[5.95185,47.218273]",Point,,RENECHA2,René Char,st_rene_char,4,116-1,unknown,Feature
+615615f357da3ca0b096943c,"[6.044595,47.26349]",Point,,LYCEE2,Lycée Pergaud,st_lycee_pergaud,7,63-4,available,Feature
+615615f357da3ca0b096943d,"[6.001526832580566,47.23243713378906]",Point,,st_jean_jaures,Jean Jaurès,,,,available,Feature
+615615f357da3ca0b096943e,"[5.97854,47.243584]",Point,,BAVEREZ2,Baverez,st_baverez,9,5-2,unknown,Feature
+615615f357da3ca0b096943f,"[6.044087,47.26353]",Point,,LYCEE3,Lycée Pergaud,st_lycee_pergaud,7,63-5,available,Feature
+615615f357da3ca0b0969440,"[5.957604,47.21816]",Point,,MAROT2,Marot,st_marot,4,116-1,available,Feature
+615615f357da3ca0b0969441,"[6.013741,47.242275]",Point,,VOIRIN2,Voirin,st_voirin,10,88-4,available,Feature
+615615f357da3ca0b0969442,"[5.972474,47.22248]",Point,,t_epo2,Epoisses,st_epoisses,101,15-1,available,Feature
+615615f357da3ca0b0969443,"[6.011668,47.24433]",Point,,DEMAN1,Demangel,st_demangel,6,155-3,unknown,Feature
+615615f357da3ca0b0969444,"[6.00878,47.246235]",Point,,METIN1,Métin,st_metin,6,155-3,unknown,Feature
+615615f357da3ca0b0969445,"[6.021949,47.246204]",Point,,GAREVIO2,Gare Viotte,st_gare_viotte,5,109-3,available,Feature
+615615f357da3ca0b0969446,"[5.970604,47.221764]",Point,,COLDIDE1,Collège Diderot,st_college_diderot,4,116-4,available,Feature
+615615f357da3ca0b0969448,"[6.011548042297363,47.246551513671875]",Point,,st_fanart,Fanart,,,,unknown,Feature
+615615f357da3ca0b0969447,"[6.046945571899414,47.26683044433594]",Point,,st_college_proudhon,Collège Proudhon,,,,unknown,Feature
+615615f357da3ca0b0969449,"[6.0421319007873535,47.256683349609375]",Point,,st_belfort,Belfort,,,,unknown,Feature
+615615f357da3ca0b096944a,"[5.957554,47.21816]",Point,,MAROT1,Marot,st_marot,4,116-4,available,Feature
+615615f357da3ca0b096944b,"[6.032386,47.26349]",Point,,ECOLE4V2,Ecole des 4 vents,st_ecole_des_4_vents,11,55-0,unknown,Feature
+615615f357da3ca0b096944c,"[6.040486,47.262215]",Point,,CHOPIN4,Chopin,st_chopin,4,116-1,available,Feature
+615615f357da3ca0b096944d,"[6.008889,47.234303]",Point,,LABUTTE3,La Butte,st_la_butte,4,116-4,unknown,Feature
+615615f357da3ca0b096944e,"[5.9781675,47.22066]",Point,,t_micro2,Micropolis,st_micropolis,101,15-1,available,Feature
+615615f357da3ca0b096944f,"[6.012517,47.234863]",Point,,CROIXAR1,"Croix d'Arènes",st_croix_darenes,4,116-4,unknown,Feature
+615615f357da3ca0b0969450,"[5.987565,47.246677]",Point,,BIBLIOU2,Bibliothèques Univ.,st_bibliotheques_univ,7,63-5,unknown,Feature
+615615f357da3ca0b0969451,"[6.01109,47.21915]",Point,,VELOTTE2,Velotte,st_velotte,9,5-4,unknown,Feature
+615615f357da3ca0b0969452,"[6.01074,47.22983]",Point,,POLYGON1,Polygone,st_polygone,9,5-2,unknown,Feature
+615615f357da3ca0b0969453,"[5.999639,47.24769]",Point,,INTERMA1,Intermarché,st_intermarche,9,5-4,available,Feature
+615615f357da3ca0b0969454,"[6.045239448547363,47.25891876220703]",Point,,st_lebeuf,Lebeuf,,,,unknown,Feature
+615615f357da3ca0b0969455,"[6.049907684326172,47.22819519042969]",Point,,st_charmarin,Charmarin,,,,unknown,Feature
+615615f357da3ca0b0969456,"[5.994856834411621,47.243125915527344]",Point,,st_st_martin,St Martin,,,,available,Feature
+615615f357da3ca0b0969457,"[6.008380889892578,47.26948547363281]",Point,,st_ecole_des_torcols,Ecole des Torcols,,,,unknown,Feature
+615615f357da3ca0b0969458,"[6.008727073669434,47.23429870605469]",Point,,st_la_butte,La Butte,,,,unknown,Feature
+615615f357da3ca0b0969459,"[6.011555,47.24649]",Point,,FANART1,Fanart,st_fanart,9,5-4,unknown,Feature
+615615f357da3ca0b096945a,"[5.992452,47.281998]",Point,,CENTCOM4,École-Valentin - Centre Commercial,st_ecolevalentin__centre_commercial,8,45-1,available,Feature
+615615f357da3ca0b096945b,"[5.962015,47.22024]",Point,,PAVIE1,Pavie,st_pavie,7,63-4,available,Feature
+615615f357da3ca0b096945c,"[6.039542198181152,47.238929748535156]",Point,,st_fabre,Fabre,,,,unknown,Feature
+615615f357da3ca0b096945d,"[6.010323524475098,47.25893020629883]",Point,,st_college_camus,Collège Camus,,,,available,Feature
+615615f357da3ca0b096945e,"[6.031498908996582,47.24897384643555]",Point,,st_marie_louise,Marie Louise,,,,unknown,Feature
+615615f357da3ca0b096945f,"[6.025302886962891,47.240882873535156]",Point,,st_courbet,Courbet,,,,unknown,Feature
+615615f357da3ca0b0969460,"[6.037428,47.267063]",Point,,CHEPLAN2,Chemin des Planches,st_chemin_des_planches,11,55-0,unknown,Feature
+615615f357da3ca0b0969462,"[6.014240264892578,47.21941375732422]",Point,,st_journaux,Journaux,,,,unknown,Feature
+615615f357da3ca0b0969461,"[5.961878776550293,47.22040557861328]",Point,,st_pavie,Pavie,,,,unknown,Feature
+615615f357da3ca0b0969463,"[5.963461875915527,47.219810485839844]",Point,,st_vivarais,Vivarais,,,,unknown,Feature
+615615f357da3ca0b0969464,"[6.028107643127441,47.26929473876953]",Point,,st_chemin_de_la_selle,Chemin de la Selle,,,,unknown,Feature
+615615f357da3ca0b0969465,"[6.015066,47.237698]",Point,,JANVIER2,Janvier,st_janvier,10,88-4,available,Feature
+615615f357da3ca0b0969466,"[5.98457,47.235043]",Point,,LAVOISI2,Lavoisier,st_lavoisier,10,88-4,unknown,Feature
+615615f357da3ca0b0969467,"[6.047417,47.268814]",Point,,CHEMPAL1,Chemin de Palente,st_chemin_de_palente,11,55-1,unknown,Feature
+615615f357da3ca0b0969468,"[5.9860315,47.250774]",Point,,ARAGO1,Campus Arago,st_campus_arago,7,63-4,available,Feature
+615615f357da3ca0b0969469,"[5.986145,47.243233]",Point,,PAPIN3,Papin,st_papin,9,5-4,unknown,Feature
+615615f357da3ca0b096946a,"[6.0553303,47.263397]",Point,,t_marn2,Chalezeule - Marnières,st_chalezeule__marnieres,101,15-1,available,Feature
+615615f357da3ca0b096946b,"[6.026228,47.252148]",Point,,CHASNOT1,Chasnot,st_chasnot,12,24-1,unknown,Feature
+615615f357da3ca0b096946c,"[6.001019,47.232353]",Point,,JEANJAU2,Jean Jaurès,st_jean_jaures,4,116-1,available,Feature
+615615f357da3ca0b096946d,"[6.025612831115723,47.25144958496094]",Point,,st_nicolas_bruand,Nicolas Bruand,,,,unknown,Feature
+615615f357da3ca0b096946e,"[6.018096,47.251083]",Point,,LUMIERE1,Lumière,st_lumiere,5,109-3,available,Feature
+615615f357da3ca0b096946f,"[5.973468,47.219864]",Point,,t_allen2,Allende,st_allende,101,15-1,available,Feature
+615615f357da3ca0b0969470,"[6.04481,47.256077]",Point,,t_schw1,Schweitzer,st_schweitzer,101,15-0,available,Feature
+615615f357da3ca0b0969471,"[6.040222,47.23055]",Point,,CHARDON1,Chardonnet,st_chardonnet,12,24-1,unknown,Feature
+615615f357da3ca0b0969472,"[6.019811,47.24695]",Point,,GAVIONO1,Gare Viotte Nord,st_gare_viotte_nord,8,45-2,available,Feature
+615615f357da3ca0b0969473,"[6.004894256591797,47.250221252441406]",Point,,st_notre_dame,Notre Dame,,,,unknown,Feature
+615615f357da3ca0b0969474,"[5.984458,47.22803]",Point,,ORATOIR1,Oratoire,st_oratoire,4,116-4,available,Feature
+615615f357da3ca0b0969475,"[6.043943405151367,47.228248596191406]",Point,,st_cite_des_gacognes,Cité des Gacognes,,,,unknown,Feature
+615615f357da3ca0b0969476,"[6.0429354,47.253136]",Point,,t_lvai2,Les Vaîtes,st_les_vaites,101,15-1,available,Feature
+615615f357da3ca0b0969477,"[6.021053314208984,47.25675964355469]",Point,,st_victor_gallois,Victor Gallois,,,,unknown,Feature
+615615f357da3ca0b0969478,"[6.042394638061523,47.228965759277344]",Point,,st_place_guyon,Place Guyon,,,,unknown,Feature
+615615f357da3ca0b0969479,"[6.016269,47.220257]",Point,,CHEMVEL2,Chemin de Velotte,st_chemin_de_velotte,9,5-2,unknown,Feature
+615615f357da3ca0b096947a,"[6.026127,47.243076]",Point,,DENROCH2,Denfert Rochereau,st_denfert_rochereau,11,55-1,available,Feature
+615615f357da3ca0b096947b,"[5.952857,47.21853]",Point,,RENECHA1,René Char,st_rene_char,4,116-4,unknown,Feature
+615615f357da3ca0b096947c,"[5.971192,47.236176]",Point,,SANATOR1,Sanatorium,st_sanatorium,9,5-4,unknown,Feature
+615615f357da3ca0b096947d,"[6.014415,47.230503]",Point,,CHAUDAN2,Chaudanne,st_chaudanne,9,5-4,unknown,Feature
+615615f357da3ca0b096947e,"[5.963448,47.219803]",Point,,VIVARAI1,Vivarais,st_vivarais,7,63-4,unknown,Feature
+615615f357da3ca0b096947f,"[6.04214,47.25672]",Point,,BELFORT2,Belfort,st_belfort,11,55-1,unknown,Feature
+615615f357da3ca0b0969480,"[5.970577239990234,47.2218017578125]",Point,,st_college_diderot,Collège Diderot,,,,available,Feature
+615615f357da3ca0b0969481,"[6.03633,47.23802]",Point,,FONTENO4,Fontenottes,st_fontenottes,10,88-4,unknown,Feature
+615615f357da3ca0b0969482,"[6.019576,47.23951]",Point,,t_batt1,Battant,st_battant,102,15-0,available,Feature
+615615f357da3ca0b0969483,"[6.019765,47.261353]",Point,,CIMCLA2,Cimetière St Claude,st_cimetiere_st_claude,12,24-2,unknown,Feature
+615615f357da3ca0b0969484,"[5.987577,47.246822]",Point,,BIBLIOU1,Bibliothèques Univ.,st_bibliotheques_univ,7,63-4,unknown,Feature
+615615f357da3ca0b0969485,"[5.967318,47.2157]",Point,,GARNIER1,Garnier,st_garnier,7,63-5,available,Feature
+615615f357da3ca0b0969486,"[5.99024,47.25226]",Point,,USPORTS2,U-Sports,st_usports,7,63-5,available,Feature
+615615f357da3ca0b0969487,"[6.039383,47.238865]",Point,,FABRE2,Fabre,st_fabre,10,88-4,unknown,Feature
+615615f357da3ca0b0969488,"[6.042345,47.229008]",Point,,PLGUYON2,Place Guyon,st_place_guyon,12,24-2,unknown,Feature
+615615f357da3ca0b0969489,"[6.058323,47.251442]",Point,,BOISPAU2,Bois St Paul,st_bois_st_paul,5,109-2,unknown,Feature
+615615f357da3ca0b096948a,"[5.999641,47.257973]",Point,,BATICFA3,Bâtiment CFA,st_batiment_cfa,12,24-1,unknown,Feature
+615615f357da3ca0b096948b,"[6.0048947,47.244072]",Point,,STALAGR1,Stade Léo Lagrange,st_stade_leo_lagrange,3,119-8,available,Feature
+615615f357da3ca0b096948c,"[6.034386,47.256332]",Point,,OISEAUX1,Les Oiseaux,st_les_oiseaux,6,155-3,available,Feature
+615615f357da3ca0b096948e,"[5.999388,47.27527]",Point,,PLATINE1,École-Valentin - Platine,st_ecolevalentin__platine,8,45-2,available,Feature
+615615f357da3ca0b096948f,"[5.991965,47.23138]",Point,,MESLIER1,Meslier,st_meslier,10,88-4,unknown,Feature
+615615f357da3ca0b096948d,"[6.013693809509277,47.22266387939453]",Point,,st_caisse_depargne,"Caisse d'Epargne",,,,unknown,Feature
+615615f357da3ca0b0969490,"[5.965665,47.222805]",Point,,PIEMONT2,Piémont,st_piemont,4,116-4,available,Feature
+615615f357da3ca0b0969491,"[6.022685,47.25211]",Point,,CVIOTTE1,Cité Viotte,st_cite_viotte,8,45-2,unknown,Feature
+615615f357da3ca0b0969492,"[6.003943920135498,47.237060546875]",Point,,st_casernes,Casernes,,,,unknown,Feature
+615615f357da3ca0b0969493,"[6.029984,47.25021]",Point,,SUARD1,Suard,st_suard,6,155-2,unknown,Feature
+615615f357da3ca0b0969494,"[6.053614,47.229652]",Point,,PRESVAU1,Prés de Vaux,st_pres_de_vaux,12,24-2,unknown,Feature
+615615f357da3ca0b0969495,"[6.014387,47.219395]",Point,,JOURNAU1,Journaux,st_journaux,9,5-4,unknown,Feature
+615615f357da3ca0b0969496,"[6.009644985198975,47.25893783569336]",Point,,st_st_claude,St Claude,,,,available,Feature
+615615f357da3ca0b0969497,"[6.01982,47.23371]",Point,,CHAMCITA,Chamars,st_chamars,27,49-2,available,Feature
+615615f357da3ca0b0969498,"[6.0029802322387695,47.274208068847656]",Point,,st_ecolevalentin__champetre,École-Valentin - Champêtre,,,,available,Feature
+615615f357da3ca0b0969499,"[5.967845439910889,47.23078536987305]",Point,,st_fleming,Fleming,,,,unknown,Feature
+615615f357da3ca0b096949a,"[6.009645,47.258938]",Point,,SCL3,St Claude,st_st_claude,5,109-3,available,Feature
+615615f357da3ca0b096949b,"[5.977877140045166,47.24073028564453]",Point,,st_thouret,Thouret,,,,unknown,Feature
+615615f357da3ca0b096949c,"[6.015671,47.25958]",Point,,PSB1,PSB,st_psb,12,24-1,unknown,Feature
+615615f357da3ca0b096949d,"[5.988867,47.2386]",Point,,KENNEDY1,Kennedy,st_kennedy,7,63-4,available,Feature
+615615f357da3ca0b096949e,"[5.9824343,47.222588]",Point,,t_malc2,Malcombe,st_malcombe,101,15-1,available,Feature
+615615f357da3ca0b096949f,"[6.026400089263916,47.23781967163086]",Point,,st_granges,Granges,,,,unknown,Feature
+615615f357da3ca0b09694a0,"[6.057645,47.24863]",Point,,BREME2,Brême,st_breme,5,109-3,unknown,Feature
+615615f357da3ca0b09694a1,"[6.019651,47.233383]",Point,,CHAMARS2,Chamars,st_chamars,9,5-2,available,Feature
+615615f357da3ca0b09694a2,"[5.977323055267334,47.21643829345703]",Point,,st_polyclinique,Polyclinique,,,,unknown,Feature
+615615f357da3ca0b09694a3,"[6.0230746,47.240513]",Point,,t_revo1,Révolution,st_revolution,102,15-0,available,Feature
+615615f357da3ca0b09694a4,"[6.011983,47.224247]",Point,,MOINGEO1,Résidence Moingeon,st_residence_moingeon,9,5-4,unknown,Feature
+615615f357da3ca0b09694a5,"[6.0234375,47.25811767578125]",Point,,st_blum,Blum,,,,unknown,Feature
+615615f357da3ca0b09694a6,"[6.0370765,47.24816]",Point,,t_tbern2,Tristan Bernard,st_tristan_bernard,101,15-1,available,Feature
+615615f357da3ca0b09694a7,"[6.042444,47.22892]",Point,,PLGUYON1,Place Guyon,st_place_guyon,12,24-1,unknown,Feature
+615615f357da3ca0b09694a8,"[6.051472,47.249332]",Point,,DONZELO1,Donzelot,st_donzelot,5,109-2,unknown,Feature
+615615f357da3ca0b09694a9,"[6.019935,47.26145]",Point,,CIMCLA1,Cimetière St Claude,st_cimetiere_st_claude,12,24-1,unknown,Feature
+615615f357da3ca0b09694aa,"[6.049993,47.24951]",Point,,DONZELO2,Donzelot,st_donzelot,5,109-3,available,Feature
+615615f357da3ca0b09694ab,"[6.014927,47.26069]",Point,,RECLUS2,Reclus,st_reclus,8,45-1,available,Feature
+615615f357da3ca0b09694ac,"[6.037004,47.23035]",Point,,RIVOTTE,Rivotte,st_rivotte,11,55-0,available,Feature
+615615f357da3ca0b09694ad,"[6.038877,47.258698]",Point,,DEBUSSY2,Debussy,st_debussy,6,155-2,available,Feature
+615615f357da3ca0b09694ae,"[6.036367,47.261646]",Point,,GOUNOD2,Gounod,st_gounod,7,63-5,available,Feature
+615615f357da3ca0b09694af,"[5.960079669952393,47.2259407043457]",Point,,st_maison_des_familles,Maison des Familles,,,,available,Feature
+615615f357da3ca0b09694b0,"[5.98809,47.243366]",Point,,BEAUART1,Beaux Arts,st_beaux_arts,9,5-4,unknown,Feature
+615615f357da3ca0b09694b1,"[6.008460998535156,47.24647521972656]",Point,,st_metin,Métin,,,,unknown,Feature
+615615f357da3ca0b09694b2,"[5.989165,47.23322]",Point,,BASILIQ2,Basilique,st_basilique,10,88-4,unknown,Feature
+615615f357da3ca0b09694b3,"[6.0299096,47.24289]",Point,,t_pmic1,Parc Micaud,st_parc_micaud,102,15-0,available,Feature
+615615f357da3ca0b09694b4,"[6.042124,47.256645]",Point,,BELFORT1,Belfort,st_belfort,11,55-0,unknown,Feature
+615615f357da3ca0b09694b5,"[6.021227,47.24262]",Point,,BACCHUS2,Bacchus,st_bacchus,8,45-2,unknown,Feature
+615615f357da3ca0b09694b6,"[6.011316,47.24463]",Point,,DEMAN2,Demangel,st_demangel,6,155-2,unknown,Feature
+615615f357da3ca0b09694b7,"[6.013794898986816,47.24225616455078]",Point,,st_voirin,Voirin,,,,available,Feature
+615615f357da3ca0b09694b8,"[5.978531,47.22134]",Point,,MICROPO2,Micropolis,st_micropolis,7,63-5,available,Feature
+615615f357da3ca0b09694b9,"[6.0052809715271,47.23959732055664]",Point,,st_marmier,Marmier,,,,unknown,Feature
+615615f357da3ca0b09694ba,"[6.012928,47.24494]",Point,,WEISS4,Weiss,st_weiss,9,5-2,unknown,Feature
+615615f357da3ca0b09694bb,"[6.022980213165283,47.24946975708008]",Point,,st_eugene_savoye,Eugène Savoye,,,,unknown,Feature
+615615f357da3ca0b09694bc,"[6.045137405395508,47.2630500793457]",Point,,st_orchamps,Orchamps,,,,unknown,Feature
+615615f357da3ca0b09694bd,"[5.97524,47.21498]",Point,,PARCURB2,Parc Urbain,st_parc_urbain,7,63-5,available,Feature
+615615f357da3ca0b09694be,"[5.96333122253418,47.21669387817383]",Point,,st_bearn,Béarn,,,,unknown,Feature
+615615f357da3ca0b09694c0,"[5.978963,47.22304]",Point,,PARCEXP2,Parc des Expositions,st_parc_des_expositions,7,63-5,unknown,Feature
+615615f357da3ca0b09694bf,"[5.993897438049316,47.23045349121094]",Point,,st_bascule,Bascule,,,,unknown,Feature
+615615f357da3ca0b09694c1,"[6.016751,47.256027]",Point,,GRENOT1,Grenot,st_grenot,8,45-2,unknown,Feature
+615615f357da3ca0b09694c2,"[6.022068977355957,47.24626541137695]",Point,,st_gare_viotte,Gare Viotte,,,,available,Feature
+615615f357da3ca0b09694c3,"[6.013961,47.25533]",Point,,CHARMIL2,Charmilles,st_charmilles,5,109-2,available,Feature
+615615f357da3ca0b09694c4,"[5.980263,47.244534]",Point,,VINCENT1,Clinique St Vincent,st_clinique_st_vincent,9,5-4,unknown,Feature
+615615f357da3ca0b09694c5,"[6.022529602050781,47.252037048339844]",Point,,st_cite_viotte,Cité Viotte,,,,unknown,Feature
+615615f357da3ca0b09694c6,"[6.023194,47.255135]",Point,,FCLERC1,Francis Clerc,st_francis_clerc,12,24-1,unknown,Feature
+615615f357da3ca0b09694c7,"[5.98683,47.24838]",Point,,CROUUNI1,Crous Université,st_crous_universite,7,63-5,unknown,Feature
+615615f357da3ca0b09694c8,"[6.02280855178833,47.263641357421875]",Point,,st_feuilles_dautomne,"Feuilles d'Automne",,,,unknown,Feature
+615615f357da3ca0b09694c9,"[6.048732,47.243885]",Point,,DANTON2,Danton,st_danton,5,109-3,available,Feature
+615615f357da3ca0b09694ca,"[6.038847,47.240772]",Point,,AIGUILL1,Aiguille,st_aiguille,10,88-2,unknown,Feature
+615615f357da3ca0b09694cb,"[5.9672446,47.222034]",Point,,t_idf2,Ile de France,st_ile_de_france,101,15-1,available,Feature
+615615f357da3ca0b09694cc,"[6.008565,47.234295]",Point,,LABUTTE2,La Butte,st_la_butte,4,116-1,unknown,Feature
+615615f357da3ca0b09694cd,"[6.018354,47.256428]",Point,,WYRSCH1,Wyrsch,st_wyrsch,8,45-2,unknown,Feature
+615615f357da3ca0b09694ce,"[6.029491424560547,47.25961685180664]",Point,,st_4_vents,4 Vents,,,,available,Feature
+615615f357da3ca0b09694cf,"[6.027452,47.263653]",Point,,CARRIER1,Carrière,st_carriere,12,24-1,unknown,Feature
+615615f357da3ca0b09694d0,"[6.027439,47.261852]",Point,,ESPERAN1,Espérance,st_esperance,12,24-1,unknown,Feature
+615615f357da3ca0b09694d1,"[5.97055,47.221844]",Point,,COLDIDE2,Collège Diderot,st_college_diderot,4,116-1,available,Feature
+615615f357da3ca0b09694d2,"[5.9856706,47.250546]",Point,,ARAGO2,Campus Arago,st_campus_arago,7,63-5,available,Feature
+615615f357da3ca0b09694d3,"[6.043637,47.24416]",Point,,HEITZ1,Heitz,st_heitz,10,88-2,unknown,Feature
+615615f357da3ca0b09694d4,"[6.004275321960449,47.256492614746094]",Point,,st_savary,Savary,,,,unknown,Feature
+615615f357da3ca0b09694d5,"[6.027254104614258,47.24781799316406]",Point,,st_rotonde,Rotonde,,,,unknown,Feature
+615615f357da3ca0b09694d6,"[6.018428802490234,47.256500244140625]",Point,,st_wyrsch,Wyrsch,,,,unknown,Feature
+615615f357da3ca0b09694d7,"[5.993072,47.231228]",Point,,MESLIER2,Meslier,st_meslier,10,88-2,unknown,Feature
+615615f357da3ca0b09694d8,"[5.97531,47.21496]",Point,,PARCURB1,Parc Urbain,st_parc_urbain,7,63-4,available,Feature
+615615f357da3ca0b09694d9,"[6.007419,47.270634]",Point,,CHVALEN2,Chemin de Valentin,st_chemin_de_valentin,8,45-1,unknown,Feature
+615615f357da3ca0b09694da,"[6.028098106384277,47.255027770996094]",Point,,st_paul_bert,Paul Bert,,,,available,Feature
+615615f357da3ca0b09694db,"[6.025027,47.242905]",Point,,ISENBAR1,Isenbart,st_isenbart,5,109-3,available,Feature
+615615f357da3ca0b09694dc,"[6.046919,47.262142]",Point,,JEANNET3,Jeannettes,st_jeannettes,11,55-1,unknown,Feature
+615615f357da3ca0b09694dd,"[6.058834,47.24992]",Point,,CLAIRSO1,Clairs Soleils,st_clairs_soleils,5,109-2,available,Feature
+615615f357da3ca0b09694de,"[5.988705,47.238766]",Point,,KENNEDY2,Kennedy,st_kennedy,7,63-5,available,Feature
+615615f357da3ca0b09694df,"[5.993835,47.278015]",Point,,ECHVALE1,École-Valentin - Echangeur de Valentin,st_ecolevalentin__echangeur_de_valentin,8,45-2,available,Feature
+615615f357da3ca0b09694e0,"[6.039651,47.26223]",Point,,CHOPIN1,Chopin,st_chopin,7,63-4,available,Feature
+615615f357da3ca0b09694e1,"[5.960231781005859,47.223087310791016]",Point,,st_dolto,Dolto,,,,unknown,Feature
+615615f357da3ca0b09694e2,"[5.972622871398926,47.222415924072266]",Point,,st_epoisses,Epoisses,,,,available,Feature
+615615f357da3ca0b09694e3,"[6.026963,47.25194]",Point,,CHASNOT2,Chasnot,st_chasnot,12,24-2,unknown,Feature
+615615f357da3ca0b09694e4,"[5.967205,47.215572]",Point,,GARNIER2,Garnier,st_garnier,7,63-4,available,Feature
+615615f357da3ca0b09694e5,"[6.046069145202637,47.2650146484375]",Point,,st_courtils,Courtils,,,,unknown,Feature
+615615f357da3ca0b09694e6,"[5.970914840698242,47.23615264892578]",Point,,st_sanatorium,Sanatorium,,,,unknown,Feature
+615615f357da3ca0b09694e7,"[6.014409,47.2304]",Point,,CHAUDAN1,Chaudanne,st_chaudanne,9,5-2,unknown,Feature
+615615f357da3ca0b09694e8,"[6.01108980178833,47.21915054321289]",Point,,st_velotte,Velotte,,,,unknown,Feature
+615615f357da3ca0b09694e9,"[6.022242069244385,47.241764068603516]",Point,,st_strasbourg,Strasbourg,,,,available,Feature
+615615f357da3ca0b09694ea,"[5.995985984802246,47.261043548583984]",Point,,st_founottes,Founottes,,,,unknown,Feature
+615615f357da3ca0b09694eb,"[6.028415,47.247437]",Point,,LIBERTE4,Liberté,st_liberte,11,55-0,available,Feature
+615615f357da3ca0b09694ec,"[6.036372661590576,47.23804473876953]",Point,,st_fontenottes,Fontenottes,,,,unknown,Feature
+615615f357da3ca0b09694ed,"[5.9617390632629395,47.23553466796875]",Point,,st_tilleroyes,Tilleroyes,,,,available,Feature
+615615f357da3ca0b09694ee,"[6.047158,47.262196]",Point,,JEANNET2,Jeannettes,st_jeannettes,11,55-0,unknown,Feature
+615615f357da3ca0b09694ef,"[6.013366,47.26417]",Point,,SANSONN2,Sansonnets,st_sansonnets,8,45-1,unknown,Feature
+615615f357da3ca0b09694f0,"[6.048107,47.26101]",Point,,CHARIGN2,Charigney,st_charigney,11,55-1,unknown,Feature
+615615f357da3ca0b09694f1,"[6.009186,47.226334]",Point,,RADIEUS2,Radieuse,st_radieuse,9,5-2,unknown,Feature
+615615f357da3ca0b09694f2,"[6.039823,47.241627]",Point,,SALBREG2,Salins de Bregille,st_salins_de_bregille,10,88-4,unknown,Feature
+615615f357da3ca0b09694f3,"[6.0221725,47.246326]",Point,,t_gvio2,Gare Viotte,st_gare_viotte,102,15-1,available,Feature
+615615f357da3ca0b09694f4,"[6.010826,47.22993]",Point,,t_poly1,Polygone,st_polygone,102,15-0,available,Feature
+615615f357da3ca0b09694f5,"[6.014727,47.260933]",Point,,RECLUS1,Reclus,st_reclus,12,24-1,available,Feature
+615615f357da3ca0b09694f6,"[6.023893,47.26603]",Point,,BQTSO01,Bouquet de Soleils,st_bouquet_de_soleils,12,24-1,unknown,Feature
+615615f357da3ca0b09694f7,"[6.023056983947754,47.233699798583984]",Point,,st_prefecture,Préfecture,,,,available,Feature
+615615f357da3ca0b09694f8,"[6.0160275,47.23614]",Point,,t_cano1,Canot,st_canot,102,15-0,available,Feature
+615615f357da3ca0b09694f9,"[5.993862,47.24328]",Point,,SECUSOC1,Sécurité Sociale,st_securite_sociale,9,5-4,unknown,Feature
+615615f357da3ca0b09694fa,"[6.051734,47.245792]",Point,,MIRABEA1,Mirabeau,st_mirabeau,5,109-2,unknown,Feature
+615615f357da3ca0b09694fb,"[5.99295711517334,47.28683853149414]",Point,,st_ecolevalentin__espace_valentin,École-Valentin - Espace Valentin,,,,available,Feature
+615615f357da3ca0b09694fc,"[6.037003993988037,47.230350494384766]",Point,,st_rivotte,Rivotte,,,,available,Feature
+615615f357da3ca0b09694fd,"[6.023777484893799,47.25255584716797]",Point,,st_pont_chemin_francais,Pont Chemin Français,,,,unknown,Feature
+615615f357da3ca0b09694fe,"[5.987794876098633,47.24333190917969]",Point,,st_beaux_arts,Beaux Arts,,,,unknown,Feature
+615615f357da3ca0b09694ff,"[5.978027,47.236423]",Point,,FRESNEL3,Fresnel,st_fresnel,10,88-2,unknown,Feature
+615615f357da3ca0b0969500,"[6.045645,47.24508]",Point,,COLOMBO1,Colombot,st_colombot,10,88-2,unknown,Feature
+615615f357da3ca0b0969501,"[5.99742,47.2314]",Point,,RESIDEN1,Résidence,st_residence,4,116-4,available,Feature
+615615f357da3ca0b0969502,"[6.015336,47.22096]",Point,,MALHERB1,Malherbe,st_malherbe,9,5-4,unknown,Feature
+615615f357da3ca0b0969503,"[6.009618,47.250546]",Point,,FONT EC2,Fontaine Ecu,st_fontaine_ecu,9,5-2,unknown,Feature
+615615f357da3ca0b0969504,"[6.025745,47.239204]",Point,,POSTE1,Poste,st_poste,10,88-2,available,Feature
+615615f357da3ca0b0969505,"[6.044861,47.262966]",Point,,ORCHAMP9,Orchamps,st_orchamps,11,55-0,unknown,Feature
+615615f357da3ca0b0969506,"[6.014861,47.22128]",Point,,MALHERB2,Malherbe,st_malherbe,9,5-2,unknown,Feature
+615615f357da3ca0b0969507,"[6.023613452911377,47.26593017578125]",Point,,st_bouquet_de_soleils,Bouquet de Soleils,,,,unknown,Feature
+615615f357da3ca0b0969508,"[6.028269,47.24058]",Point,,CENSTPI2,Centre St Pierre,st_centre_st_pierre,11,55-0,unknown,Feature
+615615f357da3ca0b0969509,"[6.049021,47.26762]",Point,,GRDBUIS1,Grand Buisson,st_grand_buisson,7,63-5,unknown,Feature
+615615f357da3ca0b096950a,"[5.997644,47.245937]",Point,,CITBAUM1,Cité de la Baume,st_cite_de_la_baume,9,5-4,available,Feature
+615615f357da3ca0b096950b,"[6.004839897155762,47.244117736816406]",Point,,st_stade_leo_lagrange,Stade Léo Lagrange,,,,available,Feature
+615615f357da3ca0b096950c,"[5.977916,47.220387]",Point,,MICROPO1,Micropolis,st_micropolis,7,63-4,available,Feature
+615615f357da3ca0b096950d,"[5.999158,47.258003]",Point,,BATICFA1,Bâtiment CFA,st_batiment_cfa,6,155-3,unknown,Feature
+615615f357da3ca0b096950e,"[5.993398,47.230316]",Point,,BASC2,Bascule,st_bascule,4,116-1,unknown,Feature
+615615f357da3ca0b096950f,"[6.029917,47.24295]",Point,,t_pmic2,Parc Micaud,st_parc_micaud,101,15-1,available,Feature
+615615f357da3ca0b0969510,"[5.986718,47.24444]",Point,,UFRSCIE1,UFR Sciences,st_ufr_sciences,7,63-4,unknown,Feature
+615615f357da3ca0b0969511,"[6.046069,47.265015]",Point,,COURTIL2,Courtils,st_courtils,11,55-1,unknown,Feature
+615615f357da3ca0b0969512,"[6.023905,47.252598]",Point,,PONCHFR2,Pont Chemin Français,st_pont_chemin_francais,8,45-1,unknown,Feature
+615615f357da3ca0b0969513,"[6.006003,47.24773]",Point,,DEVILLE2,Deville,st_deville,6,155-2,unknown,Feature
+615615f357da3ca0b0969514,"[5.9645,47.235374]",Point,,PROLABO1,Prolabor,st_prolabor,9,5-4,available,Feature
+615615f357da3ca0b0969515,"[6.054662704467773,47.24681091308594]",Point,,st_envelmey,Envelmey,,,,unknown,Feature
+615615f357da3ca0b0969516,"[6.042309761047363,47.25728225708008]",Point,,st_croix_de_palente,Croix de Palente,,,,available,Feature
+615615f357da3ca0b0969517,"[6.009618759155273,47.251060485839844]",Point,,st_churchill,Churchill,,,,unknown,Feature
+615615f357da3ca0b0969518,"[6.038331031799316,47.253929138183594]",Point,,st_papillon,Papillon,,,,unknown,Feature
+615615f357da3ca0b0969519,"[6.005575,47.228462]",Point,,t_brula2,Brulard,st_brulard,101,15-1,available,Feature
+615615f357da3ca0b096951a,"[6.031678,47.261604]",Point,,COMSARA1,Combe Saragosse,st_combe_saragosse,11,55-0,unknown,Feature
+615615f357da3ca0b096951b,"[5.971773147583008,47.212120056152344]",Point,,st_la_fayette,La Fayette,,,,available,Feature
+615615f357da3ca0b096951c,"[6.027603,47.266785]",Point,,VALJOUR2,Vallon du Jour,st_vallon_du_jour,12,24-2,unknown,Feature
+615615f357da3ca0b096951d,"[6.022894859313965,47.258338928222656]",Point,,st_seiler,Seiler,,,,unknown,Feature
+615615f357da3ca0b096951e,"[6.05904483795166,47.250144958496094]",Point,,st_clairs_soleils,Clairs Soleils,,,,available,Feature
+615615f357da3ca0b096951f,"[5.992369174957275,47.281944274902344]",Point,,st_ecolevalentin__centre_commercial,École-Valentin - Centre Commercial,,,,available,Feature
+615615f357da3ca0b0969520,"[5.993505477905273,47.24332046508789]",Point,,st_securite_sociale,Sécurité Sociale,,,,unknown,Feature
+615615f357da3ca0b0969521,"[5.962137,47.221916]",Point,,VOLTAIR2,Voltaire,st_voltaire,4,116-4,available,Feature
+615615f357da3ca0b0969522,"[5.995203018188477,47.235679626464844]",Point,,st_ateliers_municipaux,Ateliers Municipaux,,,,unknown,Feature
+615615f357da3ca0b0969523,"[5.960198,47.22597]",Point,,t_psan1,Maison des Familles,st_maison_des_familles,102,15-0,available,Feature
+615615f357da3ca0b0969524,"[6.043898,47.22825]",Point,,GACOGNE1,Cité des Gacognes,st_cite_des_gacognes,12,24-1,unknown,Feature
+615615f357da3ca0b0969525,"[5.99294,47.24727]",Point,,IUT1,IUT,st_iut,3,119-8,available,Feature
+615615f357da3ca0b0969526,"[5.993867,47.23304]",Point,,PELOUSE2,Pelouse,st_pelouse,10,88-4,available,Feature
+615615f357da3ca0b0969527,"[6.0504327,47.262093]",Point,,t_fben2,Fort Benoît,st_fort_benoit,101,15-1,available,Feature
+615615f357da3ca0b0969528,"[6.014658,47.254726]",Point,,JUSTICE1,Justices,st_justices,5,109-3,available,Feature
+615615f357da3ca0b0969529,"[5.994509,47.256145]",Point,,BOUCONS1,Montboucons,st_montboucons,12,24-2,unknown,Feature
+615615f357da3ca0b096952a,"[5.96,47.221527]",Point,,CROIZ02,Croizat,st_croizat,7,63-4,unknown,Feature
+615615f357da3ca0b096952b,"[6.043747425079346,47.24421691894531]",Point,,st_heitz,Heitz,,,,unknown,Feature
+615615f357da3ca0b096952c,"[6.023157,47.25791]",Point,,BLUM1,Blum,st_blum,7,63-4,unknown,Feature
+615615f357da3ca0b096952d,"[6.028025,47.245533]",Point,,t_flo1,Flore,st_flore,102,15-0,available,Feature
+615615f357da3ca0b096952e,"[6.020914077758789,47.25819778442383]",Point,,st_lycee_saint_jean,Lycée Saint Jean,,,,unknown,Feature
+615615f357da3ca0b096952f,"[5.970638,47.23613]",Point,,SANATOR2,Sanatorium,st_sanatorium,9,5-2,unknown,Feature
+615615f357da3ca0b0969530,"[5.95997953414917,47.22157287597656]",Point,,st_croizat,Croizat,,,,unknown,Feature
+615615f357da3ca0b0969531,"[6.028307,47.256897]",Point,,FLUAGA1,Fluttes Agasses,st_fluttes_agasses,4,116-4,unknown,Feature
+615615f357da3ca0b0969532,"[6.021673,47.24405]",Point,,REMPART1,Remparts,st_remparts,8,45-1,unknown,Feature
+615615f357da3ca0b0969533,"[5.961739,47.235535]",Point,,TILEROY1,Tilleroyes,st_tilleroyes,9,5-4,available,Feature
+615615f357da3ca0b0969534,"[6.039131164550781,47.25885772705078]",Point,,st_debussy,Debussy,,,,unknown,Feature
+615615f357da3ca0b0969535,"[6.0366668701171875,47.257606506347656]",Point,,st_mutualite,Mutualité,,,,available,Feature
+615615f357da3ca0b0969536,"[6.010316,47.258938]",Point,,COLCAM2,Collège Camus,st_college_camus,12,24-2,available,Feature
+615615f357da3ca0b0969537,"[6.008142,47.246716]",Point,,METIN2,Métin,st_metin,6,155-2,unknown,Feature
+615615f357da3ca0b0969538,"[6.027311,47.266052]",Point,,VALJOUR1,Vallon du Jour,st_vallon_du_jour,12,24-1,unknown,Feature
+615615f357da3ca0b0969539,"[5.990300178527832,47.25220489501953]",Point,,st_usports,U-Sports,,,,available,Feature
+615615f357da3ca0b096953a,"[5.993149,47.243362]",Point,,SECUSOC2,Sécurité Sociale,st_securite_sociale,7,63-4,unknown,Feature
+615615f357da3ca0b096953b,"[6.022086143493652,47.256595611572266]",Point,,st_trey,Trey,,,,unknown,Feature
+615615f357da3ca0b096953c,"[6.04513,47.262924]",Point,,t_orc2,Orchamps,st_orchamps,101,15-1,available,Feature
+615615f357da3ca0b096953d,"[6.012584686279297,47.235015869140625]",Point,,st_croix_darenes,"Croix d'Arènes",,,,unknown,Feature
+615615f357da3ca0b096953e,"[6.0264,47.23782]",Point,,GRANGES1,Granges,st_granges,27,49-2,unknown,Feature
+615615f357da3ca0b096953f,"[6.036855,47.257694]",Point,,MUTUALI1,Mutualité,st_mutualite,6,155-3,available,Feature
+615615f357da3ca0b0969540,"[6.022242,47.241764]",Point,,STRASBOU,Strasbourg,st_strasbourg,8,45-2,available,Feature
+615615f357da3ca0b0969541,"[5.9558635,47.22361]",Point,,t_ufr2,UFR Santé,st_ufr_sante,101,15-1,available,Feature
+615615f357da3ca0b0969542,"[6.0424175,47.25719]",Point,,t_cdp2,Croix de Palente,st_croix_de_palente,101,15-1,available,Feature
+615615f357da3ca0b0969543,"[6.004055,47.256382]",Point,,SAVARY3,Savary,st_savary,12,24-2,unknown,Feature
+615615f357da3ca0b0969544,"[6.0609517,47.261314]",Point,,t_chal,Chalezeule - Chalezeule,st_chalezeule__chalezeule,101,15-1,available,Feature
+615615f357da3ca0b0969545,"[6.033246,47.23615]",Point,,CITAR01,Cité des Arts,st_cite_des_arts,11,55-0,unknown,Feature
+615615f357da3ca0b0969546,"[5.9559402,47.22361]",Point,,t_ufr1,UFR Santé,st_ufr_sante,102,15-0,available,Feature
+615615f357da3ca0b0969547,"[6.045672,47.263462]",Point,,ORCHAMP1,Orchamps,st_orchamps,6,155-3,unknown,Feature
+615615f357da3ca0b0969548,"[6.016352653503418,47.220130920410156]",Point,,st_chemin_de_velotte,Chemin de Velotte,,,,unknown,Feature
+615615f357da3ca0b0969549,"[6.010089,47.268227]",Point,,ESSARTS1,Essarts,st_essarts,8,45-2,unknown,Feature
+615615f357da3ca0b096954a,"[6.044344,47.248524]",Point,,DUET2,Duet,st_duet,5,109-3,available,Feature
+615615f357da3ca0b096954b,"[6.015098571777344,47.22111892700195]",Point,,st_malherbe,Malherbe,,,,unknown,Feature
+615615f357da3ca0b096954d,"[6.025415420532227,47.235328674316406]",Point,,st_granvelle,Granvelle,,,,available,Feature
+615615f357da3ca0b096954e,"[6.0158696,47.23596]",Point,,t_cano2,Canot,st_canot,101,15-1,available,Feature
+615615f357da3ca0b096954c,"[6.014496803283691,47.24275207519531]",Point,,st_leclerc,Leclerc,,,,available,Feature
+615615f357da3ca0b096954f,"[6.042253494262695,47.24971008300781]",Point,,st_brulefoin,Brûlefoin,,,,unknown,Feature
+615615f357da3ca0b0969550,"[6.035343170166016,47.23705291748047]",Point,,st_sport_nautique,Sport Nautique,,,,unknown,Feature
+615615f357da3ca0b0969551,"[6.052328586578369,47.24589157104492]",Point,,st_mirabeau,Mirabeau,,,,unknown,Feature
+615615f357da3ca0b0969552,"[6.0274834632873535,47.26165008544922]",Point,,st_esperance,Espérance,,,,unknown,Feature
+615615f357da3ca0b0969553,"[6.003574,47.237076]",Point,,CASERNE2,Casernes,st_casernes,10,88-4,unknown,Feature
+615615f357da3ca0b0969554,"[6.009775161743164,47.25035095214844]",Point,,st_fontaine_ecu,Fontaine Ecu,,,,unknown,Feature
+615615f357da3ca0b0969555,"[5.965703,47.236435]",Point,,KOSMA2,Kosma,st_kosma,9,5-2,unknown,Feature
+615615f357da3ca0b0969556,"[6.055775,47.26338]",Point,,t_marn1,Chalezeule - Marnières,st_chalezeule__marnieres,101,15-0,available,Feature
+615615f357da3ca0b0969557,"[5.995441,47.23571]",Point,,ATEMUNI3,Ateliers Municipaux,st_ateliers_municipaux,10,88-2,unknown,Feature
+615615f357da3ca0b0969558,"[5.966036796569824,47.23637008666992]",Point,,st_kosma,Kosma,,,,unknown,Feature
+615615f357da3ca0b0969559,"[5.9995995,47.258015]",Point,,BATICFA4,Bâtiment CFA,st_batiment_cfa,12,24-2,unknown,Feature
+615615f357da3ca0b096955a,"[6.028084,47.26913]",Point,,CHESELL1,Chemin de la Selle,st_chemin_de_la_selle,12,24-2,unknown,Feature
+615615f357da3ca0b096955b,"[5.973653316497803,47.23286437988281]",Point,,st_edison,Edison,,,,unknown,Feature
+615615f357da3ca0b096955c,"[6.003043,47.274097]",Point,,CHAMPET1,École-Valentin - Champêtre,st_ecolevalentin__champetre,8,45-2,available,Feature
+615615f357da3ca0b096955d,"[6.0254,47.23531]",Point,,GRANVEL1,Granvelle,st_granvelle,27,49-1,available,Feature
+615615f357da3ca0b096955e,"[5.964887,47.218678]",Point,,LANGUED2,Languedoc,st_languedoc,7,63-4,available,Feature
+615615f357da3ca0b096955f,"[6.02365,47.252514]",Point,,PONCHFR1,Pont Chemin Français,st_pont_chemin_francais,8,45-2,unknown,Feature
+615615f357da3ca0b0969560,"[5.965041,47.218864]",Point,,LANGUED1,Languedoc,st_languedoc,7,63-5,available,Feature
+615615f357da3ca0b0969562,"[5.989507,47.229233]",Point,,CONCORD2,Concorde,st_concorde,4,116-1,available,Feature
+615615f357da3ca0b0969561,"[6.043828964233398,47.259368896484375]",Point,,st_corvee,Corvée,,,,available,Feature
+615615f357da3ca0b0969563,"[6.021666526794434,47.24403381347656]",Point,,st_remparts,Remparts,,,,unknown,Feature
