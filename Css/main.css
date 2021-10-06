@@ -3,8 +3,6 @@
     padding: 0;
 
     box-sizing: border-box;
-
-    font-family: Mont, ui-rounded;
     font-weight: bold;
 }
 body{
@@ -12,6 +10,8 @@ body{
     width: 100vw;
 
     overflow: hidden;
+
+    font-family: Mont, ui-rounded;
 }
 header{
     display: flex;
@@ -45,6 +45,10 @@ header{
 #controls_destination{
     display: flex;
     flex-direction: column;
+}
+
+#controls_destination_select {
+    font-family: serif;
 }
 
 

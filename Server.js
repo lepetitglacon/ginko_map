@@ -24,12 +24,12 @@ app.listen(port, () => {
 })
 
 app.get('/get/lines',async  (req, res) => {
-    const lines = await getLines()
+    const lines = await getLines(req)
     res.status(200).json(lines)
 })
 
 app.get('/get/line',async  (req, res) => {
-    const lines = await getLines(req.query.id)
+    const lines = await getLine(req.query.id)
     res.status(200).json(lines)
 })
 
@@ -38,7 +38,7 @@ app.get('/get/stop',async  (req, res) => {
     res.status(200).json(stops)
 })
 
-app.get('/get/stopsByVariant',async  (req, res) => {
+app.get('/get/stops',async  (req, res) => {
     const lines = await getStops(req.query.id)
     res.status(200).json(lines)
 })
@@ -86,7 +86,7 @@ app.get('/back/assignVariantToStops', async (req, res) => {
  *
  * @returns {*}
  */
-function getLines() {
+function getAllLines() {
     let cursor = db.collection('lines').find({}).sort({"properties.route_id": 1}).collation({
         "locale": "fr",
         "numericOrdering": true
@@ -94,9 +94,25 @@ function getLines() {
     return cursor.toArray()
 }
 
+function getLines(req) {
+    if (req.query.filter) {
+        let cursor = db.collection('lines').find(req.query.filter).sort({"properties.route_id": 1}).collation({
+            "locale": "fr",
+            "numericOrdering": true
+        })
+        return cursor.toArray()
+    } else {
+        let cursor = db.collection('lines').find({}).sort({"properties.route_id": 1}).collation({
+            "locale": "fr",
+            "numericOrdering": true
+        })
+        return cursor.toArray()
+    }
+}
+
 function getLine(variantId) {
-    let cursor = db.collection('lines').findOne({"properties.route_variante_id": variantId})
-    return cursor.toArray()
+    return db.collection('lines').findOne({"properties.route_variante_id": variantId})
+
 }
 
 /**

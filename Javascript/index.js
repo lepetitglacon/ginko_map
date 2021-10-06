@@ -11,106 +11,81 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
     attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> contributors'
 }).addTo(map);
 map.preferCanvas = true
+map.lastLine = undefined
 
-$(window).on('load', function initialize(e) {
+$(window).on('load',async function initialize(e) {
+    const lines = await getLines()
+    const select = $("#controls_destination_select")
+    select.on('change',async e => {
+        console.log(geojson)
+        if (map.hasLayer(geojson)) {
+            map.removeLayer(geojson)
+        }
+        if (map.hasLayer(map.lastLine)) {
+            map.removeLayer(map.lastLine)
+        }
+        map.lastLine = await displayLine(e.target.value)
+    })
 
+    createSelectOption(lines, select)
+    const geojson = await displayLines(lines)
+    console.log(geojson)
 })
 
-/**
- * Récupère les lignes depuis la BDD
- */
-async function createGeojsonLines() {
-    fetch(config.serverURL+"get/lines", config.headers)
-        .then(res => res.json())
-        .then(features => {
-            createGeojsonLinesBulk(features)
-        })
-    const lines = await doAjax(config.serverURL+"get/lines")
-
+function createSelectOption(lines, select) {
+    lines.forEach(line => {
+        const id = line.properties.route_id+'_'+line.properties.route_variante_id
+        const text = line.properties.route_short_name+' destination '+line.properties.route_destination
+        const option = $('<option value="'+id+'">'+text+'</option>')
+        select.append(option)
+    })
 }
 
-/**
- * Crée les objets GeoJSON des lignes
- *
- * @param features
- */
-function createGeojsonLinesBulk(features) {
-    L.geoJSON(features,{
+async function displayLines(lines) {
+    const geojson = L.geoJSON(lines,{
         style: (line) => {
-            return {
-                color: line.properties.route_color,
-                weight: 5
-            }
+            return {color: line.properties.route_color}
         },
-        onEachFeature: (line, layer) => displayLinesForm(line, layer)
-    })
-}
-
-/**
- * Affiche la liste des lignes
- *
- * @param line
- * @param layer
- */
-function displayLinesForm(line, layer) {
-    if (config.afficherToutesLesLignesFormulaire){
-        addLineToLinesForm(line, layer)
-    } else {
-        if (line.properties.route_variante_id){
-            addLineToLinesForm(line, layer)
+        onEachFeature: (line) => {
+            displayStops(line.properties.route_variante_id)
         }
-    }
-}
-
-/**
- * Ajoute une ligne de Bus/Tram dans la liste des lignes
- *
- * @param line
- * @param layer
- */
-async function addLineToLinesForm(line, layer) {
-    const markers = await createMarkers(line, layer)
-    const group = L.layerGroup([markers, layer]);
-
-    const container = $('#controls_destination')
-        .on('change', function handleCLick() {
-            if (!map.hasLayer(group)) {
-                group.addTo(map)
-            } else {
-                map.removeLayer(group)
-            }
-        })
-
-    const select = $('#controls_destination_select')
-    const option = $('<option class="line_item" value="'+line.properties.route_id+'_'+line.properties.route_variante_id+'"></option>')
-
-    const lineIcon = $('<span class="line_icon">'+line.properties.route_short_name+'</span>')
-        .css('background-color', line.properties.route_color)
-        .css('color', line.properties.route_text_color)
-
-    const lineDirection = $('<div class="line_direction">'+line.properties.route_destination+'</div>')
-
-    option
-        .append(lineIcon)
-        .append(lineDirection)
-    select.append(option)
-}
-
-/**
- *
- *
- * @param line
- * @param layer
- */
-async function createMarkers(line, layer) {
-    const stops = await doAjax('get/stopsByVariant', {id: line.properties.route_variante_id})
-    let markers = L.layerGroup()
-    stops.map(stop => {
-        const marker = L.marker([stop.geometry.coordinates[1],stop.geometry.coordinates[0]])
-        marker.bindPopup(stop.properties.name+" direction "+line.properties.route_destination)
-        markers.addLayer(marker)
     })
-    return markers
+    geojson.addTo(map)
+    return geojson
+}
+
+async function displayLine(ids) {
+    const idArray = ids.split("_")
+    const geojsonLine = await doAjax('get/line', {id: idArray[1]})
+    const line = L.geoJSON(geojsonLine, {
+        style: line => {
+            return {color: line.properties.route_color}
+        }
+    })
+    line.addTo(map)
+    return line
+}
+
+function displayStops(varianteId) {
+
+}
+
+function displayStop() {
+
+}
+
+async function getLines() {
+    if (config.afficherToutesLesLignesFormulaire){
+        return doAjax('get/lines')
+    } else {
+        return doAjax('get/lines', {
+            "filter": {
+                "properties.route_variante_id": {"$exists": 1}
+            },
+
+        })
+    }
+
 }
 
 /**
