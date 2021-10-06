@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>PokeRaid</title>
+    <title>Lignes Ginko</title>
 
     <link rel="stylesheet" href="Css/main.css"/>
 
@@ -12,25 +12,26 @@
 
 </head>
 <body>
-<div id="map"></div>
-<div id="controls">
-    <div id="lines">
-        <div id="lines_header">
-            <h2>Liste des lignes</h2>
+<div id="main">
+    <header>
+        <div class="header_logo">Logo</div>
+        <div class="header_menu">
+            <a class="header_menu_link">Lien</a>
+            <a class="header_menu_link">Lien</a>
+            <a class="header_menu_link">Lien</a>
         </div>
-        <div id="lines_container"></div>
-    </div>
-    <div id="stops">
-        <div id="stops_header">
-            <h2>Liste des Arrêts</h2>
-        </div>
-    </div>
-    <div id="departures">
-        <div id="departures_header">
-            <h2>Heure de départ</h2>
+    </header>
+    <div id="map"></div>
+    <div id="controls">
+        <div id="controls_destination">
+            <label for="controls_destination_select"> Destination <span class="italic">Arrêt</span></label>
+            <select id="controls_destination_select" name="controls_destination_select">
+
+            </select>
         </div>
     </div>
 </div>
+
 
 
 <script src="node_modules/jquery/dist/jquery.js"></script>

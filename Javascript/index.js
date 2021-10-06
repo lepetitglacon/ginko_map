@@ -13,18 +13,20 @@ L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
 map.preferCanvas = true
 
 $(window).on('load', function initialize(e) {
-    createGeojsonLines()
+
 })
 
 /**
  * Récupère les lignes depuis la BDD
  */
-function createGeojsonLines() {
+async function createGeojsonLines() {
     fetch(config.serverURL+"get/lines", config.headers)
         .then(res => res.json())
         .then(features => {
             createGeojsonLinesBulk(features)
         })
+    const lines = await doAjax(config.serverURL+"get/lines")
+
 }
 
 /**
@@ -67,17 +69,11 @@ function displayLinesForm(line, layer) {
  * @param layer
  */
 async function addLineToLinesForm(line, layer) {
-    const linesContainer = $('#lines_container')
     const markers = await createMarkers(line, layer)
     const group = L.layerGroup([markers, layer]);
 
-    let itemContainer = $('#line_container_'+line.properties.route_id+'')
-    if (itemContainer.length === 0) {
-        itemContainer = $('<div id="line_container_'+line.properties.route_id+'" class="line_container"></div>')
-    }
-
-    const item = $('<div class="line_item"></div>')
-        .click(function handleCLick() {
+    const container = $('#controls_destination')
+        .on('change', function handleCLick() {
             if (!map.hasLayer(group)) {
                 group.addTo(map)
             } else {
@@ -85,17 +81,19 @@ async function addLineToLinesForm(line, layer) {
             }
         })
 
+    const select = $('#controls_destination_select')
+    const option = $('<option class="line_item" value="'+line.properties.route_id+'_'+line.properties.route_variante_id+'"></option>')
+
     const lineIcon = $('<span class="line_icon">'+line.properties.route_short_name+'</span>')
         .css('background-color', line.properties.route_color)
         .css('color', line.properties.route_text_color)
 
     const lineDirection = $('<div class="line_direction">'+line.properties.route_destination+'</div>')
 
-    item
+    option
         .append(lineIcon)
         .append(lineDirection)
-    itemContainer.append(item)
-    linesContainer.append(itemContainer)
+    select.append(option)
 }
 
 /**
@@ -117,11 +115,11 @@ async function createMarkers(line, layer) {
 
 /**
  *
- * @param url backend call url ex. "get/lines"
- * @param params params object ex {id: id}
+ * @param url
+ * @param params
  * @returns {Promise<*>}
  */
-async function doAjax(url, params) {
+async function doAjax(url, params = {}) {
     return $.ajax({
         url: config.serverURL + url,
         data: params

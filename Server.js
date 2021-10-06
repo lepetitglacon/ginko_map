@@ -22,8 +22,25 @@ app.listen(port, () => {
     console.log('----------------------------------------------- START')
     console.log(`Example app listening at http://localhost:${port}`)
 })
-app.get('/', (req, res) => {
-    res.send('running')
+
+app.get('/get/lines',async  (req, res) => {
+    const lines = await getLines()
+    res.status(200).json(lines)
+})
+
+app.get('/get/line',async  (req, res) => {
+    const lines = await getLines(req.query.id)
+    res.status(200).json(lines)
+})
+
+app.get('/get/stop',async  (req, res) => {
+    const stops = await getStops(req.query.id)
+    res.status(200).json(stops)
+})
+
+app.get('/get/stopsByVariant',async  (req, res) => {
+    const lines = await getStops(req.query.id)
+    res.status(200).json(lines)
 })
 
 
@@ -32,25 +49,24 @@ app.get('/back/importDataFromGtfsFile',async (req, res) => {
     let lines = await getGtfsLines()
 
     await lines.map(line => {
-      if (line.geometry.type === 'LineString'){
-          db.collection('lines').insertOne(line).then((res, id) => {
-              resArray.push(id)
-          })
-      } else if (line.geometry.type === 'Point'){
-          db.collection('stops').insertOne(line).then((res, id) => {
-              resArray.push(id)
-          })
-      }
+        if (line.geometry.type === 'LineString'){
+            db.collection('lines').insertOne(line).then((res, id) => {
+                resArray.push(id)
+            })
+        } else if (line.geometry.type === 'Point'){
+            db.collection('stops').insertOne(line).then((res, id) => {
+                resArray.push(id)
+            })
+        }
     })
-
     res.status(200).json({"objectsInsertedCount": resArray.length, "objectsInserted": resArray})
 })
 app.get('/back/assignVariantToStops', async (req, res) => {
-    const lines = await getLinesMongo()
+    const lines = await getLines()
     lines.map(async line => {
         const stops = await getGinkoStopsBy(line)
         stops.map(async stop => {
-            const mongoStop = await getStopMongo(stop.id)
+            const mongoStop = await getStop(stop.id)
             const newDoc = await db.collection('stops').updateOne({"_id": mongoStop._id},
                 {
                     $set:{
@@ -65,28 +81,12 @@ app.get('/back/assignVariantToStops', async (req, res) => {
 })
 
 
-app.get('/get/lines',async  (req, res) => {
-    const lines = await getLinesMongo()
-    res.status(200).json(lines)
-})
-
-app.get('/get/stops',async  (req, res) => {
-    const lines = await getStopsByVariant(req.query.id)
-    res.status(200).json(lines)
-})
-
-app.get('/get/stopsByVariant',async  (req, res) => {
-    const lines = await getStopsByVariant(req.query.id)
-    res.status(200).json(lines)
-})
-
-
 /**
  * Returns lines Collection
  *
  * @returns {*}
  */
-function getLinesMongo() {
+function getLines() {
     let cursor = db.collection('lines').find({}).sort({"properties.route_id": 1}).collation({
         "locale": "fr",
         "numericOrdering": true
@@ -94,26 +94,32 @@ function getLinesMongo() {
     return cursor.toArray()
 }
 
-/**
- * Returns lines Collection
- *
- * @returns {*}
- */
-function getStopMongo(id) {
-    return db.collection('stops').findOne({"properties.id": id})
-}
-
-/**
- * Returns lines Collection
- *
- * @returns {*}
- */
-function getStopsByVariant(id) {
-    const cursor = db.collection('stops').find({"properties.route_variante_id": id})
+function getLine(variantId) {
+    let cursor = db.collection('lines').findOne({"properties.route_variante_id": variantId})
     return cursor.toArray()
 }
 
 /**
+ * Returns lines Collection
+ *
+ * @returns {*}
+ */
+function getStop(stopId) {
+    return db.collection('stops').findOne({"properties.id": stopId})
+}
+
+/**
+ * Returns lines Collection
+ *
+ * @returns {*}
+ */
+function getStops(variantId) {
+    const cursor = db.collection('stops').find({"properties.route_variante_id": variantId})
+    return cursor.toArray()
+}
+
+/**
+ * BACK
  * Returns lines data as JSON
  * @returns {Promise<any>}
  */
@@ -123,6 +129,7 @@ async function getGtfsLines() {
 }
 
 /**
+ * BACK
  * Returns every line's stops as JSON
  * @returns {Promise<any>}
  */
